@@ -103,7 +103,7 @@
 
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 
-    <!-- Excalidraw version -->
+    <!-- Drawgraw build version -->
     <meta name="version" content="{version}" />
 
     <% if (typeof VITE_APP_DEV_DISABLE_LIVE_RELOAD != 'undefined' &&
@@ -124,7 +124,7 @@
     </script>
     <% } %>
     <script>
-      // setting this so that libraries installation reuses this window tab.
+      // Keep the Drawgraw window identity stable for cross-window flows.
       window.name = "_excalidraw";
     </script>
 

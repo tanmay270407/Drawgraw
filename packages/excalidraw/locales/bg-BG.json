@@ -72,7 +72,7 @@
     "arrowtype_elbowed": "",
     "fontSize": "Размер на шрифта",
     "fontFamily": "Семейство шрифтове",
-    "addWatermark": "Добави \"Направено с Excalidraw\"",
+    "addWatermark": "Добави \"Направено с Drawgraw\"",
     "handDrawn": "Нарисувано на ръка",
     "normal": "Нормален",
     "code": "Код",
@@ -107,7 +107,7 @@
     "untitled": "Неозаглавено",
     "name": "Име",
     "yourName": "Вашето име",
-    "madeWithExcalidraw": "Направено с Excalidraw",
+    "madeWithExcalidraw": "Направено с Drawgraw",
     "group": "Групирай селекцията",
     "ungroup": "Спри групирането на селекцията",
     "collaborators": "Сътрудници",
@@ -138,7 +138,7 @@
     "toggleTheme": "Превключване на светла/тъмна тема",
     "theme": "Тема",
     "personalLib": "Лична Библиотека",
-    "excalidrawLib": "Excalidraw Библиотека",
+    "excalidrawLib": "Drawgraw Библиотека",
     "decreaseFontSize": "Намали размера на шрифта",
     "increaseFontSize": "Увеличи размера на шрифта",
     "unbindText": "",
@@ -272,7 +272,7 @@
     "cannotExportEmptyCanvas": "Не може да се експортира празно платно.",
     "couldNotCopyToClipboard": "Не можем да копираме в клипбоарда.",
     "decryptFailed": "Данните не можаха да се дешифрират.",
-    "uploadedSecurly": "Качването е защитено с криптиране от край до край, което означава, че сървърът Excalidraw и трети страни не могат да четат съдържанието.",
+    "uploadedSecurly": "",
     "loadSceneOverridePrompt": "Зареждането на външна рисунка ще презапише настоящото ви съдържание. Желаете ли да продължите?",
     "collabStopOverridePrompt": "Прекратяването на сесията ще презапише предишната, локално запазена, рисунка. Сигурни ли сте?\n\n(Ако искате да продължите с локалната рисунка, просто затворете таба на браузъра.)",
     "errorAddingToLibrary": "Не можем да заредим от библиотеката",
@@ -280,7 +280,7 @@
     "confirmAddLibrary": "Ще се добавят {{numShapes}} фигура(и) във вашата библиотека. Сигурни ли сте?",
     "imageDoesNotContainScene": "Това изображение не изглежда да съдържа каквито и да е данни за сцена. Искате ли да включите вмъкване на сцени при изнасяне?",
     "cannotRestoreFromImage": "Не може да бъде възстановена сцена от този файл",
-    "invalidSceneUrl": "Неуспешно поставяне на сцена от предоставения линк. Той е или неправилно оформен, или не съдържа валидни Excalidraw JSON данни.",
+    "invalidSceneUrl": "Неуспешно поставяне на сцена от предоставения линк. Той е или неправилно оформен, или не съдържа валидни Drawgraw JSON данни.",
     "resetLibrary": "Това ще изчисти библиотеката ви. Сигурни ли сте?",
     "removeItemsFromsLibrary": "Изтрий {{count}} елемент(а) от библиотеката?",
     "invalidEncryptionKey": "Ключът за енкрипция трябва да е от 22 знака. Сътрудничеството на живо е изключено.",
@@ -338,7 +338,7 @@
     "bucketfill": "",
     "hand": "",
     "extraTools": "Още инструменти",
-    "mermaidToExcalidraw": "Mermaid към Excalidraw",
+    "mermaidToExcalidraw": "Mermaid към Drawgraw",
     "convertElementType": ""
   },
   "bucketfill": {
@@ -539,7 +539,7 @@
     }
   },
   "encrypted": {
-    "tooltip": "Вашите рисунки са криптирани от край до край, така че сървърите на Excalidraw няма да могат да ги виждат.",
+    "tooltip": "Вашите рисунки са криптирани от край до край, така че сървърите на Drawgraw няма да могат да ги виждат.",
     "link": ""
   },
   "stats": {
@@ -631,9 +631,9 @@
         "description": ""
       },
       "excalidrawPlus": {
-        "title": "Excalidraw+",
-        "button": "Експортирай към Excalidraw+",
-        "description": "Запази сцената към Excalidraw+ работното място."
+        "title": "Drawgraw",
+        "button": "Експортирай към Drawgraw",
+        "description": "Запази сцената към Drawgraw работното място."
       }
     },
     "modal": {

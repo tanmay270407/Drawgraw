@@ -72,7 +72,7 @@
     "arrowtype_elbowed": "Прямокутна стрілка",
     "fontSize": "Розмір шрифту",
     "fontFamily": "Шрифт",
-    "addWatermark": "Додати \"Зроблено з Excalidraw\"",
+    "addWatermark": "Додати \"Зроблено з Drawgraw\"",
     "handDrawn": "Ручний апарат",
     "normal": "Звичайний",
     "code": "Код",
@@ -107,7 +107,7 @@
     "untitled": "Без назви",
     "name": "Ім’я",
     "yourName": "Ваше ім’я",
-    "madeWithExcalidraw": "Зроблено з Excalidraw",
+    "madeWithExcalidraw": "Зроблено з Drawgraw",
     "group": "Групувати виділене",
     "ungroup": "Розгрупувати виділене",
     "collaborators": "Співавтори",
@@ -138,7 +138,7 @@
     "toggleTheme": "Перемикати світлу/темну теми",
     "theme": "Тема",
     "personalLib": "Персональна бібліотека",
-    "excalidrawLib": "Бібліотека Excalidraw",
+    "excalidrawLib": "Бібліотека Drawgraw",
     "decreaseFontSize": "Зменшити розмір шрифту",
     "increaseFontSize": "Збільшити розмір шрифту",
     "unbindText": "Відв'язати текст",
@@ -180,7 +180,7 @@
     "zoomToFitViewport": "Збільшити до розміру перегляду",
     "zoomToFitSelection": "Збільшити, щоб відповідати виділенню",
     "zoomToFit": "Збільшити, щоб умістити всі елементи",
-    "installPWA": "Встановити Excalidraw локально (PWA)",
+    "installPWA": "Встановити Drawgraw локально (PWA)",
     "autoResize": "Увімкнути автоматичне змінення розміру тексту",
     "imageCropping": "Обрізка зображення",
     "unCroppedDimension": "Необрізаний розмір",
@@ -272,7 +272,7 @@
     "cannotExportEmptyCanvas": "Не вийшло експортувати пусте полотно.",
     "couldNotCopyToClipboard": "Не вдалося скопіювати до буфера обміну.",
     "decryptFailed": "Не вдалося розшифрувати дані.",
-    "uploadedSecurly": "Це завантаження було захищене наскрізним шифруванням, а це означає що сервер Excalidraw та інші не зможуть прочитати вміст.",
+    "uploadedSecurly": "",
     "loadSceneOverridePrompt": "Завантаження зовнішнього креслення замінить ваш наявний контент. Продовжити?",
     "collabStopOverridePrompt": "Зупинка сесії перезапише ваш попередній, локально збережений малюнок. Ви впевнені?\n\n(Якщо ви хочете зберегти локальний малюнок, просто закрийте замість нього вкладку браузера.)",
     "errorAddingToLibrary": "Не вдалося додати елемент до бібліотеки",
@@ -280,7 +280,7 @@
     "confirmAddLibrary": "Це призведе до додавання {{numShapes}} фігур до вашої бібліотеки. Ви впевнені?",
     "imageDoesNotContainScene": "Виглядає ніби зображення не містить корисної інформації. Ви увімкнули вбудовування сцени при експорті?",
     "cannotRestoreFromImage": "Сцена не може бути відновлена з цього файлу зображення",
-    "invalidSceneUrl": "Не вдалося імпортувати сцену з наданого URL. Він або недоформований, або не містить дійсних даних Excalidraw JSON.",
+    "invalidSceneUrl": "Не вдалося імпортувати сцену з наданого URL. Він або недоформований, або не містить дійсних даних Drawgraw JSON.",
     "resetLibrary": "Це призведе до очищення бібліотеки. Ви впевнені?",
     "removeItemsFromsLibrary": "Видалити {{count}} елемент(ів) з бібліотеки?",
     "invalidEncryptionKey": "Ключ шифрування повинен бути довжиною до 22 символів. Спільну роботу вимкнено.",
@@ -338,7 +338,7 @@
     "bucketfill": "Заливка",
     "hand": "Рука (інструмент для панорамування)",
     "extraTools": "Інші інструменти",
-    "mermaidToExcalidraw": "Mermaid у Excalidraw",
+    "mermaidToExcalidraw": "Mermaid у Drawgraw",
     "convertElementType": ""
   },
   "bucketfill": {
@@ -422,7 +422,7 @@
     "desc_inProgressIntro": "Сесія спільної роботи над кресленням триває.",
     "desc_shareLink": "Поділіться цим посиланням з будь-ким для спільної роботи:",
     "desc_exitSession": "Зупинка сесії відключить вас від кімнати, але ви зможете продовжити роботу з полотном локально. Зверніть увагу, що це не вплине на інших людей, і вони все одно зможуть працювати над їх версією.",
-    "shareTitle": "Приєднатися до сеансу спільної роботи на Excalidraw"
+    "shareTitle": "Приєднатися до сеансу спільної роботи на Drawgraw"
   },
   "errorDialog": {
     "title": "Помилка"
@@ -438,9 +438,9 @@
     "link_title": "Доступ за посиланням",
     "link_details": "Експортувати як посилання тільки для читання.",
     "link_button": "Експортувати у посилання",
-    "excalidrawplus_description": "Збережіть сцену у вашому обліковому записі Excalidraw+.",
+    "excalidrawplus_description": "Збережіть сцену у вашому обліковому записі Drawgraw.",
     "excalidrawplus_button": "Експортувати",
-    "excalidrawplus_exportError": "Не вдалося експортувати у Excalidraw+..."
+    "excalidrawplus_exportError": "Не вдалося експортувати у Drawgraw..."
   },
   "helpDialog": {
     "blog": "Наш блог",
@@ -539,8 +539,8 @@
     }
   },
   "encrypted": {
-    "tooltip": "Ваші креслення захищені наскрізним шифруванням — сервери Excalidraw ніколи їх не побачать.",
-    "link": "Допис у блозі на наскрізному шифруванні в Excalidraw"
+    "tooltip": "Ваші креслення захищені наскрізним шифруванням — сервери Drawgraw ніколи їх не побачать.",
+    "link": "Допис у блозі на наскрізному шифруванні в Drawgraw"
   },
   "stats": {
     "angle": "Кут",
@@ -596,7 +596,7 @@
       "center_heading": "Ваші малюнки зберігаються у сховищі браузера.",
       "center_heading_line2": "Дані, збережені в браузері, можуть бути несподівано видалені.",
       "center_heading_line3": "Регулярно зберігайте свою роботу у файл, щоб не втратити її.",
-      "center_heading_plus": "Чи бажаєте перейти до Excalidraw+?",
+      "center_heading_plus": "Чи бажаєте перейти до Drawgraw?",
       "menuHint": "Експорт, налаштування, мови, ..."
     },
     "defaults": {
@@ -631,9 +631,9 @@
         "description": "Експорт даних сцени в файл, з якого можна імпортувати пізніше."
       },
       "excalidrawPlus": {
-        "title": "Excalidraw+",
-        "button": "Експортувати до Excalidraw+",
-        "description": "Зберегти сцену до робочого простору Excalidraw+."
+        "title": "Drawgraw",
+        "button": "Експортувати до Drawgraw",
+        "description": "Зберегти сцену до робочого простору Drawgraw."
       }
     },
     "modal": {
@@ -650,9 +650,9 @@
     }
   },
   "mermaid": {
-    "title": "Mermaid у Excalidraw",
+    "title": "Mermaid у Drawgraw",
     "button": "Вставити",
-    "description": "Наразі підтримуються лише діаграми типів <flowchartLink>Flowchart</flowchartLink>, <sequenceLink>Sequence</sequenceLink>, <classLink>Class</classLink> та <erdLink>Entity Relationship</erdLink>. Інші типи будуть показані в Excalidraw як зображення.",
+    "description": "Наразі підтримуються лише діаграми типів <flowchartLink>Flowchart</flowchartLink>, <sequenceLink>Sequence</sequenceLink>, <classLink>Class</classLink> та <erdLink>Entity Relationship</erdLink>. Інші типи будуть показані в Drawgraw як зображення.",
     "syntax": "Синтаксис Mermaid",
     "preview": "Попередній перегляд",
     "label": "Mermaid",
@@ -699,7 +699,7 @@
       "mermaidParseError": "Помилка синтаксису Mermaid"
     },
     "rateLimit": {
-      "messageLimit": "Ви вичерпали ліміт AI на безплатному плані. Спробуйте Excalidraw+ або поверніться завтра.",
+      "messageLimit": "Ви вичерпали ліміт AI на безплатному плані. Спробуйте Drawgraw або поверніться завтра.",
       "generalRateLimit": "Притримайте коней, ви надто поспішаєте! Зачекайте трохи, перш ніж спробувати ще раз.",
       "messageLimitInputPlaceholder": "Ви досягли вашого ліміту повідомлень"
     },

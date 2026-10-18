@@ -72,7 +72,7 @@
     "arrowtype_elbowed": "",
     "fontSize": "Velikost písma",
     "fontFamily": "Písmo",
-    "addWatermark": "Přidat \"Vyrobeno s Excalidraw\"",
+    "addWatermark": "Přidat \"Vyrobeno s Drawgraw\"",
     "handDrawn": "Od ruky",
     "normal": "Normální",
     "code": "Kód",
@@ -107,7 +107,7 @@
     "untitled": "Bez názvu",
     "name": "Název",
     "yourName": "Vaše jméno",
-    "madeWithExcalidraw": "Vytvořeno v Excalidraw",
+    "madeWithExcalidraw": "Vytvořeno v Drawgraw",
     "group": "Sloučit výběr do skupiny",
     "ungroup": "Zrušit sloučení skupiny",
     "collaborators": "Spolupracovníci",
@@ -180,7 +180,7 @@
     "zoomToFitViewport": "",
     "zoomToFitSelection": "Přiblížit na výběr",
     "zoomToFit": "Přiblížit na zobrazení všech prvků",
-    "installPWA": "Instalovat Excalidraw lokálně (PWA)",
+    "installPWA": "Instalovat Drawgraw lokálně (PWA)",
     "autoResize": "Povolit automatickou změnu velikosti textu",
     "imageCropping": "",
     "unCroppedDimension": "",
@@ -272,7 +272,7 @@
     "cannotExportEmptyCanvas": "Nelze exportovat prázdné plátno.",
     "couldNotCopyToClipboard": "Nelze zkopírovat do schránky.",
     "decryptFailed": "Nelze dešifrovat data.",
-    "uploadedSecurly": "Nahrávání je zabezpečeno koncovým šifrováním, což znamená, že server Excalidraw ani třetí strany nemohou obsah přečíst.",
+    "uploadedSecurly": "",
     "loadSceneOverridePrompt": "Načítání externího výkresu nahradí váš existující obsah. Přejete si pokračovat?",
     "collabStopOverridePrompt": "Zastavení relace přepíše vaše předchozí, lokálně uložené kresby. Jste si jisti?\n\n(Pokud chcete zachovat místní kresbu, jednoduše zavřete kartu prohlížeče)",
     "errorAddingToLibrary": "Položku nelze přidat do knihovny",
@@ -280,7 +280,7 @@
     "confirmAddLibrary": "Tímto přidáte {{numShapes}} tvarů do tvé knihovny. Jste si jisti?",
     "imageDoesNotContainScene": "Zdá se, že tento obrázek neobsahuje žádná data o scéně. Zapnuli jste při exportu vkládání scény?",
     "cannotRestoreFromImage": "Scénu nelze obnovit z tohoto souboru obrázku",
-    "invalidSceneUrl": "Nelze importovat scénu z zadané URL. Je buď poškozená, nebo neobsahuje platná JSON data Excalidraw.",
+    "invalidSceneUrl": "Nelze importovat scénu z zadané URL. Je buď poškozená, nebo neobsahuje platná JSON data Drawgraw.",
     "resetLibrary": "Tímto vymažete vaši knihovnu. Jste si jisti?",
     "removeItemsFromsLibrary": "Smazat {{count}} položek z knihovny?",
     "invalidEncryptionKey": "Šifrovací klíč musí mít 22 znaků. Live spolupráce je zakázána.",
@@ -422,7 +422,7 @@
     "desc_inProgressIntro": "Živá spolupráce právě probíhá.",
     "desc_shareLink": "Sdílejte tento odkaz s každým, s kým chcete spolupracovat:",
     "desc_exitSession": "Zastavením relace se odpojíte od místnosti, ale budete moci pokračovat v práci s touto scénou lokálně. Všimněte si, že to nebude mít vliv na ostatní lidi a budou stále moci spolupracovat na jejich verzi.",
-    "shareTitle": "Připojte se k aktivní spolupráci na Excalidraw"
+    "shareTitle": "Připojte se k aktivní spolupráci na Drawgraw"
   },
   "errorDialog": {
     "title": "Chyba"
@@ -438,9 +438,9 @@
     "link_title": "Odkaz pro sdílení",
     "link_details": "Exportovat jako odkaz pouze pro čtení.",
     "link_button": "Exportovat do odkazu",
-    "excalidrawplus_description": "Uložit scénu do vašeho pracovního prostoru Excalidraw+.",
+    "excalidrawplus_description": "Uložit scénu do vašeho pracovního prostoru Drawgraw.",
     "excalidrawplus_button": "Exportovat",
-    "excalidrawplus_exportError": "Export do Excalidraw+ se v tuto chvíli nezdařil..."
+    "excalidrawplus_exportError": "Export do Drawgraw se v tuto chvíli nezdařil..."
   },
   "helpDialog": {
     "blog": "Přečtěte si náš blog",
@@ -539,8 +539,8 @@
     }
   },
   "encrypted": {
-    "tooltip": "Vaše kresby jsou end-to-end šifrované, takže servery Excalidraw je nikdy neuvidí.",
-    "link": "Blog příspěvek na end-to-end šifrování v Excalidraw"
+    "tooltip": "Vaše kresby jsou end-to-end šifrované, takže servery Drawgraw je nikdy neuvidí.",
+    "link": "Blog příspěvek na end-to-end šifrování v Drawgraw"
   },
   "stats": {
     "angle": "Úhel",
@@ -596,7 +596,7 @@
       "center_heading": "",
       "center_heading_line2": "",
       "center_heading_line3": "",
-      "center_heading_plus": "Chcete místo toho přejít na Excalidraw+?",
+      "center_heading_plus": "Chcete místo toho přejít na Drawgraw?",
       "menuHint": "Export, nastavení, jazyky, ..."
     },
     "defaults": {

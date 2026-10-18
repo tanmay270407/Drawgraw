@@ -71,9 +71,6 @@ export const ShareableLinkDialog = ({
             }}
           />
         </div>
-        <div className="ShareableLinkDialog__description">
-          🔒 {t("alerts.uploadedSecurly")}
-        </div>
       </div>
     </Dialog>
   );

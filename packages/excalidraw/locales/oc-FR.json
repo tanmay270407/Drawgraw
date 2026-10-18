@@ -72,7 +72,7 @@
     "arrowtype_elbowed": "",
     "fontSize": "Talha polissa",
     "fontFamily": "Familha de polissa",
-    "addWatermark": "Apondre « Fabricat amb Excalidraw »",
+    "addWatermark": "Apondre « Fabricat amb Drawgraw »",
     "handDrawn": "A la man levada",
     "normal": "Normala",
     "code": "Còdi",
@@ -107,7 +107,7 @@
     "untitled": "Sens títol",
     "name": "Nom",
     "yourName": "Vòstre nom",
-    "madeWithExcalidraw": "Fabricat amb Excalidraw",
+    "madeWithExcalidraw": "Fabricat amb Drawgraw",
     "group": "Gropar la seleccion",
     "ungroup": "Desunir la seleccion",
     "collaborators": "Collaborators",
@@ -138,7 +138,7 @@
     "toggleTheme": "",
     "theme": "Tèma",
     "personalLib": "Bibliotèca personala",
-    "excalidrawLib": "Bibliotèca Excalidraw",
+    "excalidrawLib": "Bibliotèca Drawgraw",
     "decreaseFontSize": "Reduire talha polissa",
     "increaseFontSize": "Aumentar talha polissa",
     "unbindText": "Dessociar lo tèxte",
@@ -272,7 +272,7 @@
     "cannotExportEmptyCanvas": "Impossible d’exportar los canabasses voids.",
     "couldNotCopyToClipboard": "Còpia impossibla al quichapapièrs.",
     "decryptFailed": "Deschiframent impossible de las donadas.",
-    "uploadedSecurly": "Lo telecargament es estat securizat amb un chiframent del cap a la fin, significa que los servidors d’Excalidraw o que quina tèrça part que siá pòdon pas legir lo contengut.",
+    "uploadedSecurly": "",
     "loadSceneOverridePrompt": "Cargar un dessenh extèrn remplaçarà vòstre contengut existent. Volètz contunhar ?",
     "collabStopOverridePrompt": "Arrestar la session remplaçarà vòstre precedent dessenh gardat localament. O volètz vertadièrament ?\n\n(Se volètz gardar vòstre dessenh local, tampatz simplament l’onglet del navegador a la plaça)",
     "errorAddingToLibrary": "Apondon impossible de l’element a la bibliotèca",
@@ -280,7 +280,7 @@
     "confirmAddLibrary": "Apondrà {{numShapes}} forma(s) a vòstra bibliotèca. Confirmatz ?",
     "imageDoesNotContainScene": "Aqueste imatge sembla pas conténer cap de donadas de scèna. Avètz activat l’integracion de scèna pendent l’exportacion ?",
     "cannotRestoreFromImage": "Restauracion impossibla de la scèna a partir del fichièr imatge",
-    "invalidSceneUrl": "Importacion impossibla de la scèna a partir de l’URL provesida. Es siá mal formatada o siá conten pas cap de donada JSON Excalidraw valida.",
+    "invalidSceneUrl": "Importacion impossibla de la scèna a partir de l’URL provesida. Es siá mal formatada o siá conten pas cap de donada JSON Drawgraw valida.",
     "resetLibrary": "Aquò suprimirà vòstra bibliotèca. O volètz vertadièrament ?",
     "removeItemsFromsLibrary": "Suprimir {{count}} element(s) de la bibliotèca ?",
     "invalidEncryptionKey": "La clau de chiframent deu conténer 22 caractèrs. La collaboracion en dirèct es desactivada.",
@@ -338,7 +338,7 @@
     "bucketfill": "",
     "hand": "Man (aisina de desplaçament de la vista)",
     "extraTools": "Mai d’aisinas",
-    "mermaidToExcalidraw": "De Mermaid cap a Excalidraw",
+    "mermaidToExcalidraw": "De Mermaid cap a Drawgraw",
     "convertElementType": ""
   },
   "bucketfill": {
@@ -422,7 +422,7 @@
     "desc_inProgressIntro": "La session de collaboracion es ara en cors.",
     "desc_shareLink": "Partejatz aqueste ligam amb lo monde amb qui volètz collaborar :",
     "desc_exitSession": "Arrestar la session vos desconnectarà de la sala, mas poiretz contunhar de trabalhar a la scèna, en local. Notatz qu’aquò afectarà pas los autres, e poiràn collaborar a lor version.",
-    "shareTitle": "Rejonhètz una session collaborativa sus Excalidraw"
+    "shareTitle": "Rejonhètz una session collaborativa sus Drawgraw"
   },
   "errorDialog": {
     "title": "Error"
@@ -438,9 +438,9 @@
     "link_title": "Ligam de partejar",
     "link_details": "Exportar coma un ligam de lectura sola.",
     "link_button": "Exportar en ligam",
-    "excalidrawplus_description": "Enregistrar la scèna dins vòstre espaci de trabalh Excalidraw+.",
+    "excalidrawplus_description": "Enregistrar la scèna dins vòstre espaci de trabalh Drawgraw.",
     "excalidrawplus_button": "Exportar",
-    "excalidrawplus_exportError": "Export impossibla cap a Excalidraw+ pel moment..."
+    "excalidrawplus_exportError": "Export impossibla cap a Drawgraw pel moment..."
   },
   "helpDialog": {
     "blog": "Legir nòstre blog",
@@ -539,8 +539,8 @@
     }
   },
   "encrypted": {
-    "tooltip": "Vòstres dessenhs son chifrats del cap a la fin en consequéncia los servidors d’Excalidraw los veiràn pas jamai.",
-    "link": "Article de blòg sul chiframent del cap a la fin dins Excalidraw"
+    "tooltip": "Vòstres dessenhs son chifrats del cap a la fin en consequéncia los servidors d’Drawgraw los veiràn pas jamai.",
+    "link": "Article de blòg sul chiframent del cap a la fin dins Drawgraw"
   },
   "stats": {
     "angle": "Angle",
@@ -596,7 +596,7 @@
       "center_heading": "",
       "center_heading_line2": "",
       "center_heading_line3": "",
-      "center_heading_plus": "Voliatz puslèu utilizar Excalidraw+ a la plaça ?",
+      "center_heading_plus": "Voliatz puslèu utilizar Drawgraw a la plaça ?",
       "menuHint": "Exportar, preferéncias, lengas, ..."
     },
     "defaults": {
@@ -631,9 +631,9 @@
         "description": "Exportar las donadas de la scèna cap a un fichièr que podètz importar mai tard."
       },
       "excalidrawPlus": {
-        "title": "Excalidraw+",
-        "button": "Exportar dins Excalidraw+",
-        "description": "Enregistrar la scèna dins vòstre espaci de trabalh Excalidraw+."
+        "title": "Drawgraw",
+        "button": "Exportar dins Drawgraw",
+        "description": "Enregistrar la scèna dins vòstre espaci de trabalh Drawgraw."
       }
     },
     "modal": {
@@ -650,7 +650,7 @@
     }
   },
   "mermaid": {
-    "title": "De Mermaid cap a Excalidraw",
+    "title": "De Mermaid cap a Drawgraw",
     "button": "Inserir",
     "description": "",
     "syntax": "Sintaxi Mermaid",

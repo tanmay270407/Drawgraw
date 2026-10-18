@@ -72,7 +72,7 @@
     "arrowtype_elbowed": "Panah siku",
     "fontSize": "Ukuran font",
     "fontFamily": "Jenis font",
-    "addWatermark": "Tambahkan \"Dibuat dengan Excalidraw\"",
+    "addWatermark": "Tambahkan \"Dibuat dengan Drawgraw\"",
     "handDrawn": "Tulisan tangan",
     "normal": "Normal",
     "code": "Kode",
@@ -107,7 +107,7 @@
     "untitled": "Tanpa judul",
     "name": "Nama",
     "yourName": "Nama Anda",
-    "madeWithExcalidraw": "Dibuat dengan Excalidraw",
+    "madeWithExcalidraw": "Dibuat dengan Drawgraw",
     "group": "Kelompokan pilihan",
     "ungroup": "Pisahkan pilihan",
     "collaborators": "Kolaborator",
@@ -138,7 +138,7 @@
     "toggleTheme": "Toggle tema terang/gelap",
     "theme": "Tema",
     "personalLib": "Pustaka Pribadi",
-    "excalidrawLib": "Pustaka Excalidraw",
+    "excalidrawLib": "Pustaka Drawgraw",
     "decreaseFontSize": "Kecilkan ukuran font",
     "increaseFontSize": "Besarkan ukuran font",
     "unbindText": "Lepas teks",
@@ -180,7 +180,7 @@
     "zoomToFitViewport": "Perbesar agar sesuai dengan viewport",
     "zoomToFitSelection": "Memperbesar agar sesuai dengan pilihan",
     "zoomToFit": "Memperbesar agar unsur pas semua",
-    "installPWA": "Install Excalidraw secara lokal (PWA)",
+    "installPWA": "Install Drawgraw secara lokal (PWA)",
     "autoResize": "Mengaktifkan pengubahan ukuran teks secara otomatis",
     "imageCropping": "Pemangkasan gambar",
     "unCroppedDimension": "Dimensi yang tidak dipotong",
@@ -272,7 +272,7 @@
     "cannotExportEmptyCanvas": "Tidak bisa mengekspor kanvas kosong",
     "couldNotCopyToClipboard": "Tidak bisa menyalin ke papan klip.",
     "decryptFailed": "Tidak dapat mengdekripsi data.",
-    "uploadedSecurly": "Pengunggahan ini telah diamankan menggunakan enkripsi end-to-end, artinya server Excalidraw dan pihak ketiga tidak data membaca nya",
+    "uploadedSecurly": "",
     "loadSceneOverridePrompt": "Memuat gambar external akan mengganti konten Anda yang ada. Apakah Anda ingin melanjutkan?",
     "collabStopOverridePrompt": "Menghentikan sesi akan menimpa gambar Anda yang tersimpan secara lokal. Anda yakin?\n\n(Jika Anda ingin menyimpan gambar lokal Anda, gantinya cukup tutup tab browser.)",
     "errorAddingToLibrary": "Tidak dapat menambahkan item ke pustaka",
@@ -280,7 +280,7 @@
     "confirmAddLibrary": "Ini akan menambahkan {{numShapes}} bentuk ke pustaka Anda. Anda yakin?",
     "imageDoesNotContainScene": "Gambar ini tampaknya tidak ada data pemandangan. Apakah penyematan pemandangan sudah diaktifkan saat ekspor?",
     "cannotRestoreFromImage": "Pemandangan tidak dapat dipulihkan dari file gambar ini",
-    "invalidSceneUrl": "Tidak dapat impor pemandangan dari URL. Kemungkinan URL itu rusak atau tidak berisi data JSON Excalidraw yang valid.",
+    "invalidSceneUrl": "Tidak dapat impor pemandangan dari URL. Kemungkinan URL itu rusak atau tidak berisi data JSON Drawgraw yang valid.",
     "resetLibrary": "Ini akan menghapus pustaka Anda. Anda yakin?",
     "removeItemsFromsLibrary": "Hapus {{count}} item dari pustaka?",
     "invalidEncryptionKey": "Sandi enkripsi harus 22 karakter. Kolaborasi langsung dinonaktifkan.",
@@ -338,7 +338,7 @@
     "bucketfill": "Isi warna (Ember)",
     "hand": "Tangan (alat panning)",
     "extraTools": "Alat-alat lain",
-    "mermaidToExcalidraw": "Mermaid menjadi Excalidraw",
+    "mermaidToExcalidraw": "Mermaid menjadi Drawgraw",
     "convertElementType": "Beralih jenis bentuk"
   },
   "bucketfill": {
@@ -422,7 +422,7 @@
     "desc_inProgressIntro": "Sesi kolaborasi sedang berlangsung sekarang.",
     "desc_shareLink": "Bagikan tautan ini dengan siapa pun yang Anda inginkan untuk kolaborasi bersama:",
     "desc_exitSession": "Menghentikan sesi akan memutuskan hubungan Anda dari ruangan, tetapi Anda dapat melanjutkan bekerja dengan pemandangan Anda secara lokal. Perhatikan bahwa ini tidak memengaruhi orang lain, dan mereka masih dapat berkolaborasi pada versi mereka.",
-    "shareTitle": "Gabung sesi kolaborasi langsung di Excalidraw"
+    "shareTitle": "Gabung sesi kolaborasi langsung di Drawgraw"
   },
   "errorDialog": {
     "title": "Kesalahan"
@@ -438,9 +438,9 @@
     "link_title": "Tautan",
     "link_details": "Ekspor sebagai tautan yang hanya dibaca.",
     "link_button": "Ekspor ke tautan",
-    "excalidrawplus_description": "Simpan pemandangan ke ruang kerja Excalidraw+ Anda.",
+    "excalidrawplus_description": "Simpan pemandangan ke ruang kerja Drawgraw Anda.",
     "excalidrawplus_button": "Ekspor",
-    "excalidrawplus_exportError": "Tidak dapat ekspor ke Excalidraw+ saat ini..."
+    "excalidrawplus_exportError": "Tidak dapat ekspor ke Drawgraw saat ini..."
   },
   "helpDialog": {
     "blog": "Baca blog kami",
@@ -539,8 +539,8 @@
     }
   },
   "encrypted": {
-    "tooltip": "Gambar anda terenkripsi end-to-end sehingga server Excalidraw tidak akan pernah dapat melihatnya.",
-    "link": "Pos blog tentang enkripsi ujung ke ujung di Excalidraw"
+    "tooltip": "Gambar anda terenkripsi end-to-end sehingga server Drawgraw tidak akan pernah dapat melihatnya.",
+    "link": "Pos blog tentang enkripsi ujung ke ujung di Drawgraw"
   },
   "stats": {
     "angle": "Sudut",
@@ -596,7 +596,7 @@
       "center_heading": "Gambar anda disimpan di penyimpanan browser anda.",
       "center_heading_line2": "Penyimpanan browser dapat terhapus secara tidak terduga.",
       "center_heading_line3": "Simpan pekerjaan anda ke file secara berkala agar tidak hilang.",
-      "center_heading_plus": "Apa Anda ingin berpindah ke Excalidraw+?",
+      "center_heading_plus": "Apa Anda ingin berpindah ke Drawgraw?",
       "menuHint": "Ekspor, preferensi, bahasa, ..."
     },
     "defaults": {
@@ -631,9 +631,9 @@
         "description": "Ekspor data pemandangan ke file yang dapat Anda dapat impor nanti."
       },
       "excalidrawPlus": {
-        "title": "Excalidraw+",
-        "button": "Ekspor ke Excalidraw+",
-        "description": "Simpan pemandangan ke ruang kerja Excalidraw+ Anda."
+        "title": "Drawgraw",
+        "button": "Ekspor ke Drawgraw",
+        "description": "Simpan pemandangan ke ruang kerja Drawgraw Anda."
       }
     },
     "modal": {
@@ -650,9 +650,9 @@
     }
   },
   "mermaid": {
-    "title": "Mermaid menjadi Excalidraw",
+    "title": "Mermaid menjadi Drawgraw",
     "button": "Sisipkan",
-    "description": "Saat ini hanya Diagram  Diagram Alir  ,  Urutan  ,  Kelas  , dan  Hubungan Entitas  yang didukung. Jenis lainnya akan dirender sebagai gambar di Excalidraw .",
+    "description": "Saat ini hanya Diagram  Diagram Alir  ,  Urutan  ,  Kelas  , dan  Hubungan Entitas  yang didukung. Jenis lainnya akan dirender sebagai gambar di Drawgraw .",
     "syntax": "Syntax Mermaid",
     "preview": "Pratinjau",
     "label": "Mermaid",
@@ -699,7 +699,7 @@
       "mermaidParseError": "Kesalahan sintaks Mermaid"
     },
     "rateLimit": {
-      "messageLimit": "Anda telah mencapai batas AI pada paket gratis. Coba Excalidraw + untuk akses lebih atau kembali lagi besok.",
+      "messageLimit": "Anda telah mencapai batas AI pada paket gratis. Coba Drawgraw + untuk akses lebih atau kembali lagi besok.",
       "generalRateLimit": "Tunggu sebentar, Anda terlalu cepat! Harap tunggu sejenak sebelum mencoba lagi.",
       "messageLimitInputPlaceholder": "Anda telah mencapai batas pesan anda"
     },

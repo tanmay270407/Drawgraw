@@ -72,7 +72,7 @@
     "arrowtype_elbowed": "Seta dobrada",
     "fontSize": "Tamanho da fonte",
     "fontFamily": "Família da fonte",
-    "addWatermark": "Adicionar \"Feito com Excalidraw\"",
+    "addWatermark": "Adicionar \"Feito com Drawgraw\"",
     "handDrawn": "Manuscrito",
     "normal": "Normal",
     "code": "Código",
@@ -107,7 +107,7 @@
     "untitled": "Sem título",
     "name": "Nome",
     "yourName": "Seu nome",
-    "madeWithExcalidraw": "Feito com Excalidraw",
+    "madeWithExcalidraw": "Feito com Drawgraw",
     "group": "Agrupar seleção",
     "ungroup": "Desagrupar seleção",
     "collaborators": "Colaboradores",
@@ -138,7 +138,7 @@
     "toggleTheme": "Alternar tema claro/escuro",
     "theme": "Tema",
     "personalLib": "Biblioteca Pessoal",
-    "excalidrawLib": "Biblioteca do Excalidraw",
+    "excalidrawLib": "Biblioteca do Drawgraw",
     "decreaseFontSize": "Diminuir o tamanho da fonte",
     "increaseFontSize": "Aumentar o tamanho da fonte",
     "unbindText": "Desvincular texto",
@@ -180,7 +180,7 @@
     "zoomToFitViewport": "Zoom para caber na tela",
     "zoomToFitSelection": "Ampliar para ajustar a seleção",
     "zoomToFit": "Ampliar para encaixar todos os elementos",
-    "installPWA": "Instalar excalidraw localmente (PWA)",
+    "installPWA": "Instalar Drawgraw localmente (PWA)",
     "autoResize": "Habilitar redimensionamento automático de texto",
     "imageCropping": "Recorte de imagem",
     "unCroppedDimension": "Dimensão sem recortes",
@@ -272,7 +272,7 @@
     "cannotExportEmptyCanvas": "Não é possível exportar uma tela vazia.",
     "couldNotCopyToClipboard": "Não foi possível copiar para a área de transferência.",
     "decryptFailed": "Não foi possível descriptografar os dados.",
-    "uploadedSecurly": "O upload foi protegido com criptografia de ponta a ponta, o que significa que o servidor do Excalidraw e terceiros não podem ler o conteúdo.",
+    "uploadedSecurly": "",
     "loadSceneOverridePrompt": "Carregar um desenho externo substituirá o seu conteúdo existente. Deseja continuar?",
     "collabStopOverridePrompt": "Ao interromper a sessão, você substituirá seu desenho anterior, armazenado localmente. Você tem certeza?\n\n(Se você deseja manter seu desenho local, simplesmente feche a aba do navegador.)",
     "errorAddingToLibrary": "Não foi possível adicionar o item à biblioteca",
@@ -280,7 +280,7 @@
     "confirmAddLibrary": "Isso adicionará {{numShapes}} forma(s) à sua biblioteca. Tem certeza?",
     "imageDoesNotContainScene": "Esta imagem parece não conter dados de cenas. Você ativou a incorporação da cena durante a exportação?",
     "cannotRestoreFromImage": "Não foi possível restaurar a cena deste arquivo de imagem",
-    "invalidSceneUrl": "Não foi possível importar a cena da URL fornecida. Ela está incompleta ou não contém dados JSON válidos do Excalidraw.",
+    "invalidSceneUrl": "Não foi possível importar a cena da URL fornecida. Ela está incompleta ou não contém dados JSON válidos do Drawgraw.",
     "resetLibrary": "Isto limpará a sua biblioteca. Você tem certeza?",
     "removeItemsFromsLibrary": "Excluir {{count}} item(ns) da biblioteca?",
     "invalidEncryptionKey": "A chave de encriptação deve ter 22 caracteres. A colaboração ao vivo está desabilitada.",
@@ -338,7 +338,7 @@
     "bucketfill": "",
     "hand": "Mão (ferramenta de rolagem)",
     "extraTools": "Mais ferramentas",
-    "mermaidToExcalidraw": "Mermaid para Excalidraw",
+    "mermaidToExcalidraw": "Mermaid para Drawgraw",
     "convertElementType": "Alternar tipo de forma"
   },
   "bucketfill": {
@@ -422,7 +422,7 @@
     "desc_inProgressIntro": "A sessão de colaboração ao vivo está agora em andamento.",
     "desc_shareLink": "Compartilhe este link com qualquer pessoa com quem você queira colaborar:",
     "desc_exitSession": "Interrompendo a sessão você irá se desconectar da sala, mas você poderá continuar trabalhando com a cena localmente. Observe que isso não afetará outras pessoas, e elas ainda poderão colaborar em suas versões.",
-    "shareTitle": "Participe de uma sessão ao vivo de colaboração no Excalidraw"
+    "shareTitle": "Participe de uma sessão ao vivo de colaboração no Drawgraw"
   },
   "errorDialog": {
     "title": "Erro"
@@ -438,9 +438,9 @@
     "link_title": "Link compartilhável",
     "link_details": "Exportar como link de somente leitura.",
     "link_button": "Exportar link",
-    "excalidrawplus_description": "Salvar a cena na sua área de trabalho Excalidraw+.",
+    "excalidrawplus_description": "Salvar a cena na sua área de trabalho Drawgraw.",
     "excalidrawplus_button": "Exportar",
-    "excalidrawplus_exportError": "Não é possível exportar para o Excalidraw+ neste momento..."
+    "excalidrawplus_exportError": "Não é possível exportar para o Drawgraw neste momento..."
   },
   "helpDialog": {
     "blog": "Leia o nosso blog",
@@ -539,8 +539,8 @@
     }
   },
   "encrypted": {
-    "tooltip": "Seus desenhos são criptografados de ponta a ponta, então os servidores do Excalidraw nunca os verão.",
-    "link": "Publicação de blog com criptografia de ponta a ponta no Excalidraw"
+    "tooltip": "Seus desenhos são criptografados de ponta a ponta, então os servidores do Drawgraw nunca os verão.",
+    "link": "Publicação de blog com criptografia de ponta a ponta no Drawgraw"
   },
   "stats": {
     "angle": "Ângulo",
@@ -596,7 +596,7 @@
       "center_heading": "Seus desenhos estão salvos no armazenamento do seu navegador.",
       "center_heading_line2": "O armazenamento do navegador pode ser apagado inesperadamente.",
       "center_heading_line3": "Salve seu trabalho em um arquivo regularmente para evitar perdê-lo.",
-      "center_heading_plus": "Você queria ir para o Excalidraw+ em vez disso?",
+      "center_heading_plus": "Você queria ir para o Drawgraw em vez disso?",
       "menuHint": "Exportar, preferências, idiomas..."
     },
     "defaults": {
@@ -631,9 +631,9 @@
         "description": "Exportar os dados da cena para um arquivo que você poderá importar mais tarde."
       },
       "excalidrawPlus": {
-        "title": "Excalidraw+",
-        "button": "Exportar para Excalidraw+",
-        "description": "Salvar a cena na sua área de trabalho Excalidraw+."
+        "title": "Drawgraw",
+        "button": "Exportar para Drawgraw",
+        "description": "Salvar a cena na sua área de trabalho Drawgraw."
       }
     },
     "modal": {
@@ -650,9 +650,9 @@
     }
   },
   "mermaid": {
-    "title": "Mermaid para Excalidraw",
+    "title": "Mermaid para Drawgraw",
     "button": "Inserir",
-    "description": "Atualmente, apenas <flowchartLink>fluxogramas</flowchartLink>, <sequenceLink>sequências</sequenceLink>, <classLink>classes</classLink> e <erdLink>diagramas de relacionamento de entidades</erdLink> são suportados. Outros tipos serão mostrados como imagens no Excalidraw.",
+    "description": "Atualmente, apenas <flowchartLink>fluxogramas</flowchartLink>, <sequenceLink>sequências</sequenceLink>, <classLink>classes</classLink> e <erdLink>diagramas de relacionamento de entidades</erdLink> são suportados. Outros tipos serão mostrados como imagens no Drawgraw.",
     "syntax": "Sintaxe em Mermaid",
     "preview": "Visualizar",
     "label": "Mermaid",
@@ -699,7 +699,7 @@
       "mermaidParseError": "Erro de sintaxe Mermaid"
     },
     "rateLimit": {
-      "messageLimit": "Você atingiu o limite de IA no plano gratuito. Experimente o Excalidraw+ para mais ou tente novamente amanhã.",
+      "messageLimit": "Você atingiu o limite de IA no plano gratuito. Experimente o Drawgraw para mais ou tente novamente amanhã.",
       "generalRateLimit": "Vai com calma, colega! Espere um momento antes de tentar novamente.",
       "messageLimitInputPlaceholder": "Você atingiu seu limite de mensagens"
     },

@@ -72,7 +72,7 @@
     "arrowtype_elbowed": "",
     "fontSize": "Kirjasinkoko",
     "fontFamily": "Kirjasintyyppi",
-    "addWatermark": "Lisää \"Tehty Excalidrawilla\"",
+    "addWatermark": "Lisää \"Tehty Drawgrawilla\"",
     "handDrawn": "Käsinpiirretty",
     "normal": "Tavallinen",
     "code": "Koodi",
@@ -107,7 +107,7 @@
     "untitled": "Nimetön",
     "name": "Nimi",
     "yourName": "Nimesi",
-    "madeWithExcalidraw": "Tehty Excalidrawilla",
+    "madeWithExcalidraw": "Tehty Drawgrawilla",
     "group": "Ryhmitä valinta",
     "ungroup": "Pura valittu ryhmä",
     "collaborators": "Yhteistyökumppanit",
@@ -138,7 +138,7 @@
     "toggleTheme": "",
     "theme": "Teema",
     "personalLib": "Oma kirjasto",
-    "excalidrawLib": "Excalidraw kirjasto",
+    "excalidrawLib": "Drawgraw kirjasto",
     "decreaseFontSize": "Pienennä kirjasinkokoa",
     "increaseFontSize": "Kasvata kirjasinkokoa",
     "unbindText": "Irroita teksti",
@@ -272,7 +272,7 @@
     "cannotExportEmptyCanvas": "Tyhjää piirtoaluetta ei voi viedä.",
     "couldNotCopyToClipboard": "Leikepöydälle vieminen epäonnistui.",
     "decryptFailed": "Salauksen purkaminen epäonnistui.",
-    "uploadedSecurly": "Lähetys on turvattu päästä-päähän-salauksella. Excalidrawin palvelin ja kolmannet osapuolet eivät voi lukea sisältöä.",
+    "uploadedSecurly": "",
     "loadSceneOverridePrompt": "Ulkopuolisen piirroksen lataaminen korvaa nykyisen sisältösi. Jatketaanko?",
     "collabStopOverridePrompt": "Istunnon lopettaminen korvaa aiemman, paikallisesti tallennetun piirustuksen. Jatketaanko?\n\n(Jos haluat säilyttää paikallisesti tallennetun piirustuksen, sulje selaimen välilehti lopettamisen sijaan.)",
     "errorAddingToLibrary": "Kohdetta ei voitu lisätä kirjastoon",
@@ -280,7 +280,7 @@
     "confirmAddLibrary": "Tämä lisää {{numShapes}} muotoa kirjastoosi. Jatketaanko?",
     "imageDoesNotContainScene": "Tämä kuva ei näytä sisältävän piirrostietoja. Oletko ottanut käyttöön piirroksen tallennuksen viennin aikana?",
     "cannotRestoreFromImage": "Teosta ei voitu palauttaa tästä kuvatiedostosta",
-    "invalidSceneUrl": "Teosta ei voitu tuoda annetusta URL-osoitteesta. Tallenne on vioittunut, tai osoitteessa ei ole Excalidraw JSON-dataa.",
+    "invalidSceneUrl": "Teosta ei voitu tuoda annetusta URL-osoitteesta. Tallenne on vioittunut, tai osoitteessa ei ole Drawgraw JSON-dataa.",
     "resetLibrary": "Tämä tyhjentää kirjastosi. Jatketaanko?",
     "removeItemsFromsLibrary": "Poista {{count}} kohdetta kirjastosta?",
     "invalidEncryptionKey": "Salausavaimen on oltava 22 merkkiä pitkä. Live-yhteistyö ei ole käytössä.",
@@ -338,7 +338,7 @@
     "bucketfill": "",
     "hand": "Käsi (panning-työkalu)",
     "extraTools": "Lisää työkaluja",
-    "mermaidToExcalidraw": "Mermaid Excalidrawiksi",
+    "mermaidToExcalidraw": "Mermaid Drawgrawiksi",
     "convertElementType": ""
   },
   "bucketfill": {
@@ -422,7 +422,7 @@
     "desc_inProgressIntro": "Jaettu istunto on nyt käynnissä.",
     "desc_shareLink": "Jaa tämä linkki kenelle tahansa, jonka kanssa haluat tehdä yhteistyötä:",
     "desc_exitSession": "Istunnon pysäyttäminen katkaisee yhteyden huoneeseen, mutta voit vielä jatkaa työskentelyä paikallisesti. Huomaa, että tämä ei vaikuta muihin käyttäjiin ja he voivat jatkaa oman versionsa parissa työskentelyä.",
-    "shareTitle": "Liity Excalidraw live-yhteistyöistuntoon"
+    "shareTitle": "Liity Drawgraw live-yhteistyöistuntoon"
   },
   "errorDialog": {
     "title": "Virhe"
@@ -438,9 +438,9 @@
     "link_title": "Jaettava linkki",
     "link_details": "Vie vain luku -linkkinä.",
     "link_button": "Vie linkkinä",
-    "excalidrawplus_description": "Tallenna teos Excalidraw+ tilaan.",
+    "excalidrawplus_description": "Tallenna teos Drawgraw tilaan.",
     "excalidrawplus_button": "Vie",
-    "excalidrawplus_exportError": "Ei voitu viedä Excalidraw+-palveluun tällä hetkellä..."
+    "excalidrawplus_exportError": "Ei voitu viedä Drawgraw-palveluun tällä hetkellä..."
   },
   "helpDialog": {
     "blog": "Lue blogiamme",
@@ -539,8 +539,8 @@
     }
   },
   "encrypted": {
-    "tooltip": "Piirroksesi ovat päästä-päähän-salattuja, joten Excalidrawin palvelimet eivät koskaan näe niitä.",
-    "link": "Blogiartikkeli päästä päähän -salauksesta Excalidraw:ssa"
+    "tooltip": "Piirroksesi ovat päästä-päähän-salattuja, joten Drawgrawin palvelimet eivät koskaan näe niitä.",
+    "link": "Blogiartikkeli päästä päähän -salauksesta Drawgraw:ssa"
   },
   "stats": {
     "angle": "Kulma",
@@ -596,7 +596,7 @@
       "center_heading": "",
       "center_heading_line2": "",
       "center_heading_line3": "",
-      "center_heading_plus": "Haluatko sen sijaan mennä Excalidraw+:aan?",
+      "center_heading_plus": "Haluatko sen sijaan mennä Drawgraw:aan?",
       "menuHint": "Vie, asetukset, kielet, ..."
     },
     "defaults": {
@@ -631,8 +631,8 @@
         "description": ""
       },
       "excalidrawPlus": {
-        "title": "Excalidraw+",
-        "button": "Vie Excalidraw+:aan",
+        "title": "Drawgraw",
+        "button": "Vie Drawgraw:aan",
         "description": ""
       }
     },

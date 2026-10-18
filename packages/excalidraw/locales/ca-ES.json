@@ -72,7 +72,7 @@
     "arrowtype_elbowed": "Fletxa de colzes",
     "fontSize": "Mida de lletra",
     "fontFamily": "Tipus de lletra",
-    "addWatermark": "Afegeix-hi «Fet amb Excalidraw»",
+    "addWatermark": "Afegeix-hi «Fet amb Drawgraw»",
     "handDrawn": "Dibuixat a mà",
     "normal": "Normal",
     "code": "Codi",
@@ -107,7 +107,7 @@
     "untitled": "Sense títol",
     "name": "Nom",
     "yourName": "El vostre nom",
-    "madeWithExcalidraw": "Fet amb Excalidraw",
+    "madeWithExcalidraw": "Fet amb Drawgraw",
     "group": "Agrupa la selecció",
     "ungroup": "Desagrupa la selecció",
     "collaborators": "Col·laboradors",
@@ -138,7 +138,7 @@
     "toggleTheme": "Alternar tema clar i fosc",
     "theme": "Tema",
     "personalLib": "Biblioteca personal",
-    "excalidrawLib": "Biblioteca d'Excalidraw",
+    "excalidrawLib": "Biblioteca d'Drawgraw",
     "decreaseFontSize": "Redueix la mida de la lletra",
     "increaseFontSize": "Augmenta la mida de la lletra",
     "unbindText": "Desvincular el text",
@@ -180,7 +180,7 @@
     "zoomToFitViewport": "Amplia per adaptar-se a la finestra",
     "zoomToFitSelection": "Zoom per veure la selecció",
     "zoomToFit": "Zoom per veure tots els elements",
-    "installPWA": "Instal·la Excalidraw localment (PWA)",
+    "installPWA": "Instal·la Drawgraw localment (PWA)",
     "autoResize": "Activa la redimensió de text automàtica",
     "imageCropping": "Retallar la imatge",
     "unCroppedDimension": "Dimensió sense retallar",
@@ -272,7 +272,7 @@
     "cannotExportEmptyCanvas": "No es pot exportar un llenç buit.",
     "couldNotCopyToClipboard": "No s'ha pogut copiar al porta-retalls.",
     "decryptFailed": "No s'ha pogut desencriptar.",
-    "uploadedSecurly": "La càrrega s'ha assegurat amb xifratge punta a punta, cosa que significa que el servidor Excalidraw i tercers no poden llegir el contingut.",
+    "uploadedSecurly": "",
     "loadSceneOverridePrompt": "Si carregas aquest dibuix extern, substituirá el que tens. Vols continuar?",
     "collabStopOverridePrompt": "Aturar la sessió provocarà la sobreescriptura del dibuix previ, que hi ha desat en l'emmagatzematge local. N'esteu segur?\n\n(Si voleu conservar el dibuix local, tanqueu la pentanya del navegador en comptes d'aturar la sessió).",
     "errorAddingToLibrary": "No s'ha pogut afegir l'element a la biblioteca",
@@ -280,7 +280,7 @@
     "confirmAddLibrary": "Això afegirà {{numShapes}} forma(es) a la vostra biblioteca. Estàs segur?",
     "imageDoesNotContainScene": "Aquesta imatge no sembla contenir cap dada d'escena. Heu activat l'incrustació de l'escena durant l'exportació?",
     "cannotRestoreFromImage": "L’escena no s’ha pogut restaurar des d’aquest fitxer d’imatge",
-    "invalidSceneUrl": "No s'ha pogut importar l'escena des de l'adreça URL proporcionada. Està malformada o no conté dades Excalidraw JSON vàlides.",
+    "invalidSceneUrl": "No s'ha pogut importar l'escena des de l'adreça URL proporcionada. Està malformada o no conté dades Drawgraw JSON vàlides.",
     "resetLibrary": "Això buidarà la biblioteca. N'esteu segur?",
     "removeItemsFromsLibrary": "Suprimir {{count}} element(s) de la biblioteca?",
     "invalidEncryptionKey": "La clau d'encriptació ha de tenir 22 caràcters. La col·laboració en directe està desactivada.",
@@ -338,7 +338,7 @@
     "bucketfill": "",
     "hand": "Mà (eina de desplaçament)",
     "extraTools": "Més eines",
-    "mermaidToExcalidraw": "Mermaid a Excalidraw",
+    "mermaidToExcalidraw": "Mermaid a Drawgraw",
     "convertElementType": ""
   },
   "bucketfill": {
@@ -422,7 +422,7 @@
     "desc_inProgressIntro": "La sessió de col·laboració en directe està en marxa.",
     "desc_shareLink": "Comparteix aquest enllaç amb qualsevol persona amb qui vulgueu col·laborar:",
     "desc_exitSession": "Si atureu la sessió, us desconectareu de la sala, però podreu continuar treballant amb el dibuix localment. Tingues en compte que això no afectarà a altres persones, i encara podran col·laborar en la seva versió.",
-    "shareTitle": "Uniu-vos a una sessió de col·laboració en directe a Excalidraw"
+    "shareTitle": "Uniu-vos a una sessió de col·laboració en directe a Drawgraw"
   },
   "errorDialog": {
     "title": "Error"
@@ -438,9 +438,9 @@
     "link_title": "Enllaç per a compartir",
     "link_details": "Exporta com a un enllaç de només lectura.",
     "link_button": "Exporta a un enllaç",
-    "excalidrawplus_description": "Desa l'escena en el vostre espai de treball Excalidraw+.",
+    "excalidrawplus_description": "Desa l'escena en el vostre espai de treball Drawgraw.",
     "excalidrawplus_button": "Exporta",
-    "excalidrawplus_exportError": "No és possible exportar a Excalidraw+ ara mateix..."
+    "excalidrawplus_exportError": "No és possible exportar a Drawgraw ara mateix..."
   },
   "helpDialog": {
     "blog": "Llegiu el nostre blog",
@@ -539,8 +539,8 @@
     }
   },
   "encrypted": {
-    "tooltip": "Els vostres dibuixos estan xifrats de punta a punta de manera que els servidors d’Excalidraw no els veuran mai.",
-    "link": "Article del blog sobre encriptació d'extrem a extrem a Excalidraw"
+    "tooltip": "Els vostres dibuixos estan xifrats de punta a punta de manera que els servidors d’Drawgraw no els veuran mai.",
+    "link": "Article del blog sobre encriptació d'extrem a extrem a Drawgraw"
   },
   "stats": {
     "angle": "Angle",
@@ -596,7 +596,7 @@
       "center_heading": "",
       "center_heading_line2": "",
       "center_heading_line3": "",
-      "center_heading_plus": "Vols anar a Excalidraw+ en comptes?",
+      "center_heading_plus": "Vols anar a Drawgraw en comptes?",
       "menuHint": "Exportar, preferències, llenguatges..."
     },
     "defaults": {
@@ -631,9 +631,9 @@
         "description": "Exporta les dades de l'escena a un fitxer des del qual podràs importar-les més tard."
       },
       "excalidrawPlus": {
-        "title": "Excalidraw+",
-        "button": "Exporta a Excalidraw+",
-        "description": "Desa l'escena al teu espai de treball d'Excalidraw+."
+        "title": "Drawgraw",
+        "button": "Exporta a Drawgraw",
+        "description": "Desa l'escena al teu espai de treball d'Drawgraw."
       }
     },
     "modal": {
@@ -650,7 +650,7 @@
     }
   },
   "mermaid": {
-    "title": "Mermaid a Excalidraw",
+    "title": "Mermaid a Drawgraw",
     "button": "Inseriu",
     "description": "",
     "syntax": "Sintaxi de Mermaid",

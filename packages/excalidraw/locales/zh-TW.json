@@ -72,7 +72,7 @@
     "arrowtype_elbowed": "直角箭頭",
     "fontSize": "字型大小",
     "fontFamily": "字型系列",
-    "addWatermark": "加上「以 Excalidraw 製作」浮水印",
+    "addWatermark": "加上「以 Drawgraw 製作」浮水印",
     "handDrawn": "手寫",
     "normal": "一般",
     "code": "代碼",
@@ -107,7 +107,7 @@
     "untitled": "無標題",
     "name": "名稱",
     "yourName": "你的名稱",
-    "madeWithExcalidraw": "以 Excalidraw 製作",
+    "madeWithExcalidraw": "以 Drawgraw 製作",
     "group": "建立群組",
     "ungroup": "取消群組",
     "collaborators": "協作者",
@@ -138,7 +138,7 @@
     "toggleTheme": "切換淺色/深色主題",
     "theme": "主題",
     "personalLib": "個人資料庫",
-    "excalidrawLib": "Excalidraw 資料庫",
+    "excalidrawLib": "Drawgraw 資料庫",
     "decreaseFontSize": "縮小文字",
     "increaseFontSize": "放大文字",
     "unbindText": "取消綁定文字",
@@ -180,7 +180,7 @@
     "zoomToFitViewport": "縮放至符合 viewport",
     "zoomToFitSelection": "縮放至符合選取區",
     "zoomToFit": "縮放至顯示所有元素",
-    "installPWA": "於本機安裝 Excalidraw (PWA)",
+    "installPWA": "於本機安裝 Drawgraw (PWA)",
     "autoResize": "啟用文字自動縮放",
     "imageCropping": "圖片剪裁",
     "unCroppedDimension": "未剪裁尺寸",
@@ -272,7 +272,7 @@
     "cannotExportEmptyCanvas": "無法輸出空白的 canvas。",
     "couldNotCopyToClipboard": "無法複製到剪貼簿",
     "decryptFailed": "無法解密資料。",
-    "uploadedSecurly": "上傳已通過 end-to-end 加密，Excalidraw 伺服器和第三方無法皆讀取其內容。",
+    "uploadedSecurly": "",
     "loadSceneOverridePrompt": "讀取外部圖樣將取代目前的內容。是否要繼續？",
     "collabStopOverridePrompt": "停止連線將覆蓋您先前於本機儲存的繪圖進度，是否確認？\n\n（如要保留原有的本機繪圖進度，直接關閉瀏覽器分頁即可。）",
     "errorAddingToLibrary": "無法於此資料庫加入項目",
@@ -280,7 +280,7 @@
     "confirmAddLibrary": "這將會將 {{numShapes}} 個圖形加入你的資料庫，你確定嗎？",
     "imageDoesNotContainScene": "此圖檔中未包含場景資料。輸出檔案時是否有包含場景資料？",
     "cannotRestoreFromImage": "無法由此檔案回復場景。",
-    "invalidSceneUrl": "無法由提供的 URL 匯入場景。可能是發生異常，或未包含有效的 Excalidraw JSON 資料。",
+    "invalidSceneUrl": "無法由提供的 URL 匯入場景。可能是發生異常，或未包含有效的 Drawgraw JSON 資料。",
     "resetLibrary": "這會清除您的資料庫，是否確定？",
     "removeItemsFromsLibrary": "從資料庫刪除 {{count}} 項？",
     "invalidEncryptionKey": "加密鍵必須為22字元。即時協作已停用。",
@@ -338,7 +338,7 @@
     "bucketfill": "油漆桶填充工具",
     "hand": "手形（平移工具）",
     "extraTools": "更多工具",
-    "mermaidToExcalidraw": "Mermaid 至 Excalidraw",
+    "mermaidToExcalidraw": "Mermaid 至 Drawgraw",
     "convertElementType": "切換形狀類型"
   },
   "bucketfill": {
@@ -422,7 +422,7 @@
     "desc_inProgressIntro": "即時協作連線正在進行中。",
     "desc_shareLink": "將此連結分享給欲協作的對象：",
     "desc_exitSession": "停止連線將中斷你與協作會議室的連結，但你仍可於本機編輯此作品。意指停止連線後你的編輯不會被先前共同協作的人看見，且他們可繼續共同協作另一個版本。",
-    "shareTitle": "加入 Excalidraw 上的即時協作會議室"
+    "shareTitle": "加入 Drawgraw 上的即時協作會議室"
   },
   "errorDialog": {
     "title": "錯誤"
@@ -438,9 +438,9 @@
     "link_title": "可共享連結",
     "link_details": "匯出為唯讀連結",
     "link_button": "匯出為連結",
-    "excalidrawplus_description": "將此場景儲存至你的 Excalidraw+ 工作區",
+    "excalidrawplus_description": "將此場景儲存至你的 Drawgraw 工作區",
     "excalidrawplus_button": "輸出",
-    "excalidrawplus_exportError": "目前無法輸出至 Excalidraw+"
+    "excalidrawplus_exportError": "目前無法輸出至 Drawgraw"
   },
   "helpDialog": {
     "blog": "閱讀部落格",
@@ -539,8 +539,8 @@
     }
   },
   "encrypted": {
-    "tooltip": "你的作品已使用 end-to-end 方式加密，Excalidraw 的伺服器也無法取得其內容。",
-    "link": "Excalidraw 端到端加密的相關部落格文章"
+    "tooltip": "你的作品已使用 end-to-end 方式加密，Drawgraw 的伺服器也無法取得其內容。",
+    "link": "Drawgraw 端到端加密的相關部落格文章"
   },
   "stats": {
     "angle": "角度",
@@ -596,7 +596,7 @@
       "center_heading": "你的繪圖已儲存在瀏覽器的儲存空間中。",
       "center_heading_line2": "瀏覽器儲存空間可能會意外地被清除。",
       "center_heading_line3": "請定期將作品儲存為檔案，以避免遺失。",
-      "center_heading_plus": "您是否是要前往 Excalidraw+ ？",
+      "center_heading_plus": "您是否是要前往 Drawgraw ？",
       "menuHint": "輸出、偏好設定、語言..."
     },
     "defaults": {
@@ -631,9 +631,9 @@
         "description": "將場景匯出為可供匯入的檔案"
       },
       "excalidrawPlus": {
-        "title": "Excalidraw+",
-        "button": "匯出至 Excalidraw+",
-        "description": "將此場景儲存至您的 Excalidraw+ 工作區"
+        "title": "Drawgraw",
+        "button": "匯出至 Drawgraw",
+        "description": "將此場景儲存至您的 Drawgraw 工作區"
       }
     },
     "modal": {
@@ -650,9 +650,9 @@
     }
   },
   "mermaid": {
-    "title": "Mermaid 至 Excalidraw",
+    "title": "Mermaid 至 Drawgraw",
     "button": "插入",
-    "description": "目前僅支援 <flowchartLink>Flowchart</flowchartLink> 、 <sequenceLink>Sequence</sequenceLink> 及 <classLink>Class </classLink> 圖表。其餘檔案類型在 Excalidraw 將會以圖像呈現。",
+    "description": "目前僅支援 <flowchartLink>Flowchart</flowchartLink> 、 <sequenceLink>Sequence</sequenceLink> 及 <classLink>Class </classLink> 圖表。其餘檔案類型在 Drawgraw 將會以圖像呈現。",
     "syntax": "Mermaid 語法",
     "preview": "預覽",
     "label": "Mermaid",
@@ -699,7 +699,7 @@
       "mermaidParseError": "Mermaid 語法錯誤"
     },
     "rateLimit": {
-      "messageLimit": "你已達到免費方案的 AI 使用上限。請試用 Excalidraw+ 以取得更多額度，或明天再試。",
+      "messageLimit": "你已達到免費方案的 AI 使用上限。請試用 Drawgraw 以取得更多額度，或明天再試。",
       "generalRateLimit": "別心急，你的操作速度太快了！請稍等片刻後再試。",
       "messageLimitInputPlaceholder": "你已達到訊息上限"
     },

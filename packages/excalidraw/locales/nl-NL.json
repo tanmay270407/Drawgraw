@@ -72,7 +72,7 @@
     "arrowtype_elbowed": "Hoek pijl",
     "fontSize": "Tekstgrootte",
     "fontFamily": "Lettertype",
-    "addWatermark": "Voeg \"Gemaakt met Excalidraw\" toe",
+    "addWatermark": "Voeg \"Gemaakt met Drawgraw\" toe",
     "handDrawn": "Handgetekend",
     "normal": "Normaal",
     "code": "Code",
@@ -107,7 +107,7 @@
     "untitled": "Naamloos",
     "name": "Naam",
     "yourName": "Jouw naam",
-    "madeWithExcalidraw": "Gemaakt met Excalidraw",
+    "madeWithExcalidraw": "Gemaakt met Drawgraw",
     "group": "Groeperen",
     "ungroup": "Groep opheffen",
     "collaborators": "Deelnemers",
@@ -138,7 +138,7 @@
     "toggleTheme": "Licht-/donkerthema in-/uitschakelen",
     "theme": "Thema",
     "personalLib": "Persoonlijke bibliotheek",
-    "excalidrawLib": "Excalidraw bibliotheek",
+    "excalidrawLib": "Drawgraw bibliotheek",
     "decreaseFontSize": "Letters verkleinen",
     "increaseFontSize": "Letters vergroten",
     "unbindText": "Ontkoppel tekst",
@@ -180,7 +180,7 @@
     "zoomToFitViewport": "Zoom om in het venster te laten passen",
     "zoomToFitSelection": "Zoom om in selectie te laten passen",
     "zoomToFit": "Zoom om alle element te laten passen",
-    "installPWA": "Installeer Excalidraw lokaal (PWA)",
+    "installPWA": "Installeer Drawgraw lokaal (PWA)",
     "autoResize": "Automatisch aanpassen van tekst inschakelen",
     "imageCropping": "Afbeelding bijsnijden",
     "unCroppedDimension": "Niet bijgesneden dimensie",
@@ -272,7 +272,7 @@
     "cannotExportEmptyCanvas": "Kan geen leeg canvas exporteren.",
     "couldNotCopyToClipboard": "Kon niet naar klembord kopiëren.",
     "decryptFailed": "Kan gegevens niet decoderen.",
-    "uploadedSecurly": "De upload is beveiligd met end-to-end encryptie, wat betekent dat de Excalidraw server en derden de inhoud niet kunnen lezen.",
+    "uploadedSecurly": "",
     "loadSceneOverridePrompt": "Het inladen van een externe tekening zal je bestaande inhoud vervangen. Wil je verdergaan?",
     "collabStopOverridePrompt": "Wanneer de sessie wordt gestopt, overschrijft u de eerdere, lokaal opgeslagen tekening. Weet je het zeker?\n\n(Als je de lokale tekening wilt behouden, sluit je in plaats daarvan het browsertabblad)",
     "errorAddingToLibrary": "Kan item niet toevoegen aan de bibliotheek",
@@ -280,7 +280,7 @@
     "confirmAddLibrary": "Dit zal {{numShapes}} vorm(en) toevoegen aan je bibliotheek. Weet je het zeker?",
     "imageDoesNotContainScene": "Deze afbeelding lijkt geen scène gegevens te bevatten. Heb je scène embedding tijdens het exporteren ingeschakeld?",
     "cannotRestoreFromImage": "Scène kan niet worden hersteld vanuit dit afbeeldingsbestand",
-    "invalidSceneUrl": "Kan scène niet importeren vanuit de opgegeven URL. Het is onjuist of bevat geen geldige Excalidraw JSON-gegevens.",
+    "invalidSceneUrl": "Kan scène niet importeren vanuit de opgegeven URL. Het is onjuist of bevat geen geldige Drawgraw JSON-gegevens.",
     "resetLibrary": "Dit zal je bibliotheek wissen. Weet je het zeker?",
     "removeItemsFromsLibrary": "Verwijder {{count}} item(s) uit bibliotheek?",
     "invalidEncryptionKey": "Encryptiesleutel moet 22 tekens zijn. Live samenwerking is uitgeschakeld.",
@@ -338,7 +338,7 @@
     "bucketfill": "",
     "hand": "Hand (panning tool)",
     "extraTools": "Meer tools",
-    "mermaidToExcalidraw": "Mermaid naar Excalidraw",
+    "mermaidToExcalidraw": "Mermaid naar Drawgraw",
     "convertElementType": "Vorm type in-/uitschakelen"
   },
   "bucketfill": {
@@ -422,7 +422,7 @@
     "desc_inProgressIntro": "De live-samenwerkingssessie is nu gestart.",
     "desc_shareLink": "Deel deze link met iedereen waarmee je wil samenwerken:",
     "desc_exitSession": "Het stoppen van de sessie zal je loskoppelen van de kamer, maar je kunt lokaal doorwerken met de scène.\nPas op: dit heeft geen invloed op andere mensen en dat zij nog steeds in staat zullen zijn om samen te werken aan hun versie.",
-    "shareTitle": "Neem deel aan een live samenwerkingssessie op Excalidraw"
+    "shareTitle": "Neem deel aan een live samenwerkingssessie op Drawgraw"
   },
   "errorDialog": {
     "title": "Fout"
@@ -438,9 +438,9 @@
     "link_title": "Deelbare link",
     "link_details": "Exporteren als een alleen-lezen link.",
     "link_button": "Exporteer naar link",
-    "excalidrawplus_description": "Sla de scène op in je Excalidraw+ werkruimte.",
+    "excalidrawplus_description": "Sla de scène op in je Drawgraw werkruimte.",
     "excalidrawplus_button": "Exporteer",
-    "excalidrawplus_exportError": "Kan op dit moment niet exporteren naar Excalidraw+..."
+    "excalidrawplus_exportError": "Kan op dit moment niet exporteren naar Drawgraw..."
   },
   "helpDialog": {
     "blog": "Lees onze blog",
@@ -539,8 +539,8 @@
     }
   },
   "encrypted": {
-    "tooltip": "Je tekeningen zijn beveiligd met end-to-end encryptie, dus Excalidraw's servers zullen nooit zien wat je tekent.",
-    "link": "Blog post over end-to-end versleuteling in Excalidraw"
+    "tooltip": "Je tekeningen zijn beveiligd met end-to-end encryptie, dus Drawgraw's servers zullen nooit zien wat je tekent.",
+    "link": "Blog post over end-to-end versleuteling in Drawgraw"
   },
   "stats": {
     "angle": "Hoek",
@@ -596,7 +596,7 @@
       "center_heading": "Je tekeningen worden bewaard in de opslag van je browser.",
       "center_heading_line2": "Browser opslag kan onverwacht gewist worden.",
       "center_heading_line3": "Sla je werk regelmatig op in een bestand om te voorkomen dat je het kwijtraakt.",
-      "center_heading_plus": "Wil je in plaats daarvan naar Excalidraw+ gaan?",
+      "center_heading_plus": "Wil je in plaats daarvan naar Drawgraw gaan?",
       "menuHint": "Exporteren, voorkeuren en meer, ..."
     },
     "defaults": {
@@ -631,9 +631,9 @@
         "description": "Exporteer de scènegegevens als bestand die je later weer kunt importeren."
       },
       "excalidrawPlus": {
-        "title": "Excalidraw+",
-        "button": "Exporteer naar Excalidraw+",
-        "description": "Sla de scène op in je Excalidraw+ werkruimte."
+        "title": "Drawgraw",
+        "button": "Exporteer naar Drawgraw",
+        "description": "Sla de scène op in je Drawgraw werkruimte."
       }
     },
     "modal": {
@@ -650,9 +650,9 @@
     }
   },
   "mermaid": {
-    "title": "Mermaid naar Excalidraw",
+    "title": "Mermaid naar Drawgraw",
     "button": "Invoegen",
-    "description": "Momenteel worden alleen <flowchartLink>Stroomdiagram</flowchartLink>, <sequenceLink>Volgordediagram</sequenceLink>, <classLink>Klasse</classLink>, en <erdLink>Entiteitsrelatie</erdLink>diagrammen ondersteund. De andere typen worden weergegeven als afbeelding in Excalidraw.",
+    "description": "Momenteel worden alleen <flowchartLink>Stroomdiagram</flowchartLink>, <sequenceLink>Volgordediagram</sequenceLink>, <classLink>Klasse</classLink>, en <erdLink>Entiteitsrelatie</erdLink>diagrammen ondersteund. De andere typen worden weergegeven als afbeelding in Drawgraw.",
     "syntax": "Mermaid Syntaxis",
     "preview": "Voorbeeld",
     "label": "Mermaid",
@@ -699,7 +699,7 @@
       "mermaidParseError": "Mermaid syntax fout"
     },
     "rateLimit": {
-      "messageLimit": "Je hebt je AI limiet bereikt op het gratis abonnement. Probeer Excalidraw+ uit voor meer of kom morgen terug.",
+      "messageLimit": "Je hebt je AI limiet bereikt op het gratis abonnement. Probeer Drawgraw uit voor meer of kom morgen terug.",
       "generalRateLimit": "Ho ho, rustig aan, je gaat te snel voor ons! Wacht even voor je het opnieuw probeert.",
       "messageLimitInputPlaceholder": "Je hebt je berichtenlimiet bereikt"
     },

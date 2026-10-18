@@ -72,7 +72,7 @@
     "arrowtype_elbowed": "Puščica tipa komolca",
     "fontSize": "Velikost pisave",
     "fontFamily": "Družina pisave",
-    "addWatermark": "Dodaj \"Izdelano z Excalidraw\"",
+    "addWatermark": "Dodaj \"Izdelano z Drawgraw\"",
     "handDrawn": "Ročno narisano",
     "normal": "Običajno",
     "code": "Koda",
@@ -107,7 +107,7 @@
     "untitled": "Neimenovana",
     "name": "Ime",
     "yourName": "Vaše ime",
-    "madeWithExcalidraw": "Izdelano z Excalidraw",
+    "madeWithExcalidraw": "Izdelano z Drawgraw",
     "group": "Združi izbor",
     "ungroup": "Razdruži izbor",
     "collaborators": "Sodelavci",
@@ -138,7 +138,7 @@
     "toggleTheme": "Preklapljanje med svetlo/temno temo",
     "theme": "Tema",
     "personalLib": "Osebna knjižnica",
-    "excalidrawLib": "Knjižnica Excalidraw",
+    "excalidrawLib": "Knjižnica Drawgraw",
     "decreaseFontSize": "Zmanjšaj velikost pisave",
     "increaseFontSize": "Povečaj velikost pisave",
     "unbindText": "Veži besedilo",
@@ -180,7 +180,7 @@
     "zoomToFitViewport": "Približaj na vidno polje",
     "zoomToFitSelection": "Približaj na izbor",
     "zoomToFit": "Približaj na vse elemente",
-    "installPWA": "Namesti Excalidraw lokalno (PWA)",
+    "installPWA": "Namesti Drawgraw lokalno (PWA)",
     "autoResize": "Omogoči samodejno spreminjanje velikosti besedila",
     "imageCropping": "Obrezovanje slike",
     "unCroppedDimension": "Neobrezana dimenzija",
@@ -272,7 +272,7 @@
     "cannotExportEmptyCanvas": "Izvoz prazne scene ni mogoč.",
     "couldNotCopyToClipboard": "Kopiranje v odložišče ni uspelo.",
     "decryptFailed": "Dešifriranje podatkov ni uspelo.",
-    "uploadedSecurly": "Nalaganje je bilo zaščiteno s šifriranjem od konca do konca, kar pomeni, da strežnik Excalidraw in tretje osebe ne morejo brati vsebine.",
+    "uploadedSecurly": "",
     "loadSceneOverridePrompt": "Nalaganje zunanje risbe bo nadomestilo vašo obstoječo vsebino. Ali želite nadaljevati?",
     "collabStopOverridePrompt": "Ustavitev seje bo prepisala vašo prejšnjo, lokalno shranjeno risbo. Ali ste prepričani?\n\n(Če želite obdržati lokalno risbo, preprosto zaprite zavihek brskalnika.)",
     "errorAddingToLibrary": "Elementa ni bilo mogoče dodati v knjižnico",
@@ -280,7 +280,7 @@
     "confirmAddLibrary": "S tem boste v vašo knjižnico dodali oblike ({{numShapes}}). Ali ste prepričani?",
     "imageDoesNotContainScene": "Zdi se, da ta slika ne vsebuje podatkov o sceni. Ali ste med izvozom omogočili vdelavo scene?",
     "cannotRestoreFromImage": "Scene ni bilo mogoče obnoviti iz te slikovne datoteke",
-    "invalidSceneUrl": "S priloženega URL-ja ni bilo mogoče uvoziti scene. Je napačno oblikovana ali pa ne vsebuje veljavnih podatkov Excalidraw JSON.",
+    "invalidSceneUrl": "S priloženega URL-ja ni bilo mogoče uvoziti scene. Je napačno oblikovana ali pa ne vsebuje veljavnih podatkov Drawgraw JSON.",
     "resetLibrary": "To bo počistilo vašo knjižnico. Ali ste prepričani?",
     "removeItemsFromsLibrary": "Izbriši elemente ({{count}}) iz knjižnice?",
     "invalidEncryptionKey": "Ključ za šifriranje mora vsebovati 22 znakov. Sodelovanje v živo je onemogočeno.",
@@ -338,7 +338,7 @@
     "bucketfill": "Zapolnjevanje z vedrom",
     "hand": "Roka (orodje za premikanje)",
     "extraTools": "Več orodij",
-    "mermaidToExcalidraw": "Mermaid v Excalidraw",
+    "mermaidToExcalidraw": "Mermaid v Drawgraw",
     "convertElementType": "Preklopi vrsto oblike"
   },
   "bucketfill": {
@@ -422,7 +422,7 @@
     "desc_inProgressIntro": "Seja sodelovanja v živo je v teku.",
     "desc_shareLink": "Delite to povezavo z vsemi, s katerimi želite sodelovati:",
     "desc_exitSession": "Ustavitev seje vas bo odklopila od sobe, vendar boste lahko lokalno nadaljevali delo s sceno. To pa ne bo vplivalo na druge osebe. Druge osebe bodo še vedno lahko sodelovale v svoji različici.",
-    "shareTitle": "Pridruži se seji sodelovanja v živo na Excalidraw"
+    "shareTitle": "Pridruži se seji sodelovanja v živo na Drawgraw"
   },
   "errorDialog": {
     "title": "Napaka"
@@ -438,9 +438,9 @@
     "link_title": "Povezava za deljenje",
     "link_details": "Izvoz kot povezava samo za branje.",
     "link_button": "Izvoz kot povezava",
-    "excalidrawplus_description": "Shrani sceno v svoj delovni prostor Excalidraw+.",
+    "excalidrawplus_description": "Shrani sceno v svoj delovni prostor Drawgraw.",
     "excalidrawplus_button": "Izvoz",
-    "excalidrawplus_exportError": "Trenutno ni bilo mogoče izvoziti v Excalidraw+..."
+    "excalidrawplus_exportError": "Trenutno ni bilo mogoče izvoziti v Drawgraw..."
   },
   "helpDialog": {
     "blog": "Preberite naš blog",
@@ -539,8 +539,8 @@
     }
   },
   "encrypted": {
-    "tooltip": "Vaše risbe so šifrirane od konca do konca, tako da jih strežniki Excalidraw nikoli ne bodo videli.",
-    "link": "Blog objava o šifriranju od konca do konca v Excalidraw"
+    "tooltip": "Vaše risbe so šifrirane od konca do konca, tako da jih strežniki Drawgraw nikoli ne bodo videli.",
+    "link": "Blog objava o šifriranju od konca do konca v Drawgraw"
   },
   "stats": {
     "angle": "Kot",
@@ -596,7 +596,7 @@
       "center_heading": "Vaše risbe so shranjene v pomnilniku vašega brskalnika.",
       "center_heading_line2": "Pomnilnik brskalnika se lahko nepričakovano izprazni.",
       "center_heading_line3": "Redno shranjujte svoje delo v datoteko, da ga ne izgubite.",
-      "center_heading_plus": "Ste namesto tega želeli odpreti Excalidraw+?",
+      "center_heading_plus": "Ste namesto tega želeli odpreti Drawgraw?",
       "menuHint": "Izvoz, nastavitve, jeziki, ..."
     },
     "defaults": {
@@ -631,9 +631,9 @@
         "description": "Izvozite podatke scene v datoteko, iz katere jo lahko pozneje uvozite."
       },
       "excalidrawPlus": {
-        "title": "Excalidraw+",
-        "button": "Izvozi v Excalidraw+",
-        "description": "Shrani sceno v svoj delovni prostor Excalidraw+."
+        "title": "Drawgraw",
+        "button": "Izvozi v Drawgraw",
+        "description": "Shrani sceno v svoj delovni prostor Drawgraw."
       }
     },
     "modal": {
@@ -650,9 +650,9 @@
     }
   },
   "mermaid": {
-    "title": "Mermaid v Excalidraw",
+    "title": "Mermaid v Drawgraw",
     "button": "Vstavi",
-    "description": "Trenutno so podprti samo diagrami <flowchartLink>Diagram poteka</flowchartLink>, <sequenceLink>Zaporedje</sequenceLink>, <classLink>Razred</classLink> in <erdLink>Diagrami entitet in razmerij</erdLink>. Druge vrste bodo v programu Excalidraw upodobljene kot slike.",
+    "description": "Trenutno so podprti samo diagrami <flowchartLink>Diagram poteka</flowchartLink>, <sequenceLink>Zaporedje</sequenceLink>, <classLink>Razred</classLink> in <erdLink>Diagrami entitet in razmerij</erdLink>. Druge vrste bodo v programu Drawgraw upodobljene kot slike.",
     "syntax": "Sintaksa Mermaid",
     "preview": "Predogled",
     "label": "Mermaid",
@@ -699,7 +699,7 @@
       "mermaidParseError": "Sintaktična napaka Mermaid"
     },
     "rateLimit": {
-      "messageLimit": "Dosegli ste omejitev uporabe umetne inteligence v brezplačnem paketu. Za več informacij preizkusite Excalidraw+ ali se vrnite jutri.",
+      "messageLimit": "Dosegli ste omejitev uporabe umetne inteligence v brezplačnem paketu. Za več informacij preizkusite Drawgraw ali se vrnite jutri.",
       "generalRateLimit": "Počakaj malo, prehiter si za nas! Prosim, počakaj trenutek, preden poskusiš znova.",
       "messageLimitInputPlaceholder": "Dosegli ste omejitev števila sporočil"
     },

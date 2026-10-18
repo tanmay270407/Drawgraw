@@ -72,7 +72,7 @@
     "arrowtype_elbowed": "Łamana strzałka",
     "fontSize": "Rozmiar tekstu",
     "fontFamily": "Krój pisma",
-    "addWatermark": "Dodaj \"Zrobione w Excalidraw\"",
+    "addWatermark": "Dodaj \"Zrobione w Drawgraw\"",
     "handDrawn": "Odręczny",
     "normal": "Normalny",
     "code": "Kod",
@@ -107,7 +107,7 @@
     "untitled": "Bez tytułu",
     "name": "Nazwa",
     "yourName": "Twoje imię",
-    "madeWithExcalidraw": "Zrobione w Excalidraw",
+    "madeWithExcalidraw": "Zrobione w Drawgraw",
     "group": "Zgrupuj wybrane",
     "ungroup": "Rozgrupuj wybrane",
     "collaborators": "Współtwórcy",
@@ -138,7 +138,7 @@
     "toggleTheme": "Przełącz motyw jasny / ciemny",
     "theme": "Motyw",
     "personalLib": "Biblioteka prywatna",
-    "excalidrawLib": "Biblioteka Excalidraw",
+    "excalidrawLib": "Biblioteka Drawgraw",
     "decreaseFontSize": "Zmniejsz rozmiar czcionki",
     "increaseFontSize": "Zwiększ rozmiar czcionki",
     "unbindText": "Odłącz tekst od kontenera",
@@ -180,7 +180,7 @@
     "zoomToFitViewport": "Dopasuj widok do ekranu",
     "zoomToFitSelection": "Dopasuj widok do zaznaczenia",
     "zoomToFit": "Dopasuj widok do całej zawartości",
-    "installPWA": "Zainstaluj Excalidraw lokalnie (PWA)",
+    "installPWA": "Zainstaluj Drawgraw lokalnie (PWA)",
     "autoResize": "Włącz automatyczne zmiany rozmiaru tekstu",
     "imageCropping": "Przycinanie obrazu",
     "unCroppedDimension": "Nieprzycięty wymiar",
@@ -280,7 +280,7 @@
     "confirmAddLibrary": "To doda {{numShapes}} kształtów do twojej biblioteki. Jesteś pewien?",
     "imageDoesNotContainScene": "Ten obraz nie zawiera żadnych informacji o scenie. Czy włączyłeś osadzanie sceny podczas eksportu?",
     "cannotRestoreFromImage": "Scena nie mogła zostać przywrócona z pliku obrazu",
-    "invalidSceneUrl": "Nie udało się zaimportować sceny z podanego adresu URL. Jest ona wadliwa lub nie zawiera poprawnych danych Excalidraw w formacie JSON.",
+    "invalidSceneUrl": "Nie udało się zaimportować sceny z podanego adresu URL. Jest ona wadliwa lub nie zawiera poprawnych danych Drawgraw w formacie JSON.",
     "resetLibrary": "To wyczyści twoją bibliotekę. Jesteś pewien?",
     "removeItemsFromsLibrary": "Usunąć {{count}} element(ów) z biblioteki?",
     "invalidEncryptionKey": "Klucz szyfrowania musi składać się z 22 znaków. Współpraca na żywo jest wyłączona.",
@@ -338,7 +338,7 @@
     "bucketfill": "",
     "hand": "Ręka (narzędzie do przesuwania)",
     "extraTools": "Więcej narzędzi",
-    "mermaidToExcalidraw": "Konwertuj diagram Mermaid do Excalidraw",
+    "mermaidToExcalidraw": "Konwertuj diagram Mermaid do Drawgraw",
     "convertElementType": "Przełącz typ kształtu"
   },
   "bucketfill": {
@@ -422,7 +422,7 @@
     "desc_inProgressIntro": "Sesja współpracy na żywo właśnie się rozpoczęła.",
     "desc_shareLink": "Udostępnij ten link osobom, z którymi chcesz współpracować:",
     "desc_exitSession": "Zakończenie sesji spowoduje odłączenie ciebie od pokoju, ale nadal będziesz mógł lokalnie kontynuować pracę. Zauważ, że osoby z którymi współpracowałeś nadal będą mogły współpracować.",
-    "shareTitle": "Dołącz do sesji współpracy na żywo w Excalidraw"
+    "shareTitle": "Dołącz do sesji współpracy na żywo w Drawgraw"
   },
   "errorDialog": {
     "title": "Wystąpił błąd"
@@ -438,9 +438,9 @@
     "link_title": "Link do udostępnienia",
     "link_details": "Eksportuj jako link tylko do odczytu.",
     "link_button": "Wygeneruj link",
-    "excalidrawplus_description": "Zapisz scenę do swojego obszaru roboczego Excalidraw+.",
+    "excalidrawplus_description": "Zapisz scenę do swojego obszaru roboczego Drawgraw.",
     "excalidrawplus_button": "Eksportuj",
-    "excalidrawplus_exportError": "W tej chwili nie można wyeksportować do Excalidraw+..."
+    "excalidrawplus_exportError": "W tej chwili nie można wyeksportować do Drawgraw..."
   },
   "helpDialog": {
     "blog": "Przeczytaj na naszym blogu",
@@ -539,8 +539,8 @@
     }
   },
   "encrypted": {
-    "tooltip": "Twoje rysunki są zabezpieczone szyfrowaniem end-to-end, tak więc nawet w Excalidraw nie jesteśmy w stanie zobaczyć tego co tworzysz.",
-    "link": "Wpis na blogu dotyczący szyfrowania end-to-end w Excalidraw"
+    "tooltip": "Twoje rysunki są zabezpieczone szyfrowaniem end-to-end, tak więc nawet w Drawgraw nie jesteśmy w stanie zobaczyć tego co tworzysz.",
+    "link": "Wpis na blogu dotyczący szyfrowania end-to-end w Drawgraw"
   },
   "stats": {
     "angle": "Kąt",
@@ -596,7 +596,7 @@
       "center_heading": "",
       "center_heading_line2": "",
       "center_heading_line3": "",
-      "center_heading_plus": "Czy zamiast tego chcesz przejść do Excalidraw+?",
+      "center_heading_plus": "Czy zamiast tego chcesz przejść do Drawgraw?",
       "menuHint": "Eksportuj, preferencje, języki..."
     },
     "defaults": {
@@ -631,9 +631,9 @@
         "description": "Eksportuj zawartość sceny jako plik z możliwością importowania."
       },
       "excalidrawPlus": {
-        "title": "Excalidraw+",
-        "button": "Eksportuj do Excalidraw+",
-        "description": "Zapisz scenę do swojego obszaru roboczego Excalidraw+."
+        "title": "Drawgraw",
+        "button": "Eksportuj do Drawgraw",
+        "description": "Zapisz scenę do swojego obszaru roboczego Drawgraw."
       }
     },
     "modal": {
@@ -650,7 +650,7 @@
     }
   },
   "mermaid": {
-    "title": "Konwertuj diagram Mermaid do Excalidraw",
+    "title": "Konwertuj diagram Mermaid do Drawgraw",
     "button": "Wstaw",
     "description": "",
     "syntax": "Składnia diagramów Mermaid",
