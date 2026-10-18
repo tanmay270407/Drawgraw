@@ -51,11 +51,10 @@ import type {
  * hostname from the end, pathname from the start, with subdomain/path
  * boundaries
  **/
-const ALLOWED_LIBRARY_URLS = [
-  "excalidraw.com",
-  // when installing from github PRs
-  "raw.githubusercontent.com/excalidraw/excalidraw-libraries",
-];
+const drawgrawLibraryPath = import.meta.env.VITE_SUPABASE_URL
+  ? `${new URL(import.meta.env.VITE_SUPABASE_URL).host}/storage/v1/object/public/drawgraw-libraries`
+  : null;
+const ALLOWED_LIBRARY_URLS = drawgrawLibraryPath ? [drawgrawLibraryPath] : [];
 
 type LibraryUpdate = {
   /** deleted library items since last onLibraryChange event */

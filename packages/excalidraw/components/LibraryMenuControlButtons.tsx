@@ -5,16 +5,13 @@ import LibraryMenuBrowseButton from "./LibraryMenuBrowseButton";
 import type { ExcalidrawProps, UIAppState } from "../types";
 
 export const LibraryMenuControlButtons = ({
-  libraryReturnUrl,
-  theme,
-  id,
   style,
   children,
   className,
 }: {
-  libraryReturnUrl: ExcalidrawProps["libraryReturnUrl"];
-  theme: UIAppState["theme"];
-  id: string;
+  libraryReturnUrl?: ExcalidrawProps["libraryReturnUrl"];
+  theme?: UIAppState["theme"];
+  id?: string;
   style: React.CSSProperties;
   children?: React.ReactNode;
   className?: string;
@@ -24,11 +21,7 @@ export const LibraryMenuControlButtons = ({
       className={clsx("library-menu-control-buttons", className)}
       style={style}
     >
-      <LibraryMenuBrowseButton
-        id={id}
-        libraryReturnUrl={libraryReturnUrl}
-        theme={theme}
-      />
+      <LibraryMenuBrowseButton />
       {children}
     </div>
   );

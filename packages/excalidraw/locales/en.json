@@ -3,7 +3,6 @@
     "signUp": "Sign up",
     "signIn": "Sign in",
     "upgrade": "Upgrade",
-    "tryExcalidrawPlus": "Try Excalidraw+",
     "plusFreeTrial": "14-day free trial",
     "paste": "Paste",
     "pasteAsPlaintext": "Paste as plaintext",
@@ -120,7 +119,7 @@
     "addToLibrary": "Add to library",
     "removeFromLibrary": "Remove from library",
     "libraryLoadingMessage": "Loading library…",
-    "libraries": "Browse libraries",
+    "libraries": "Browse Drawgraw Libraries",
     "loadingScene": "Loading scene…",
     "loadScene": "Load scene from file",
     "align": "Align",
@@ -172,7 +171,6 @@
       "lockAll": "Lock all",
       "unlockAll": "Unlock all"
     },
-    "statusPublished": "Published",
     "sidebarLock": "Keep sidebar open",
     "selectAllElementsInFrame": "Select all elements in frame",
     "removeAllElementsFromFrame": "Remove all elements from frame",
@@ -269,7 +267,6 @@
     "clear": "Clear",
     "remove": "Remove",
     "embed": "Toggle embedding",
-    "publishLibrary": "Rename or publish",
     "submit": "Submit",
     "confirm": "Confirm",
     "embeddableInteractionButton": "Click to interact"
@@ -291,7 +288,7 @@
     "confirmAddLibrary": "This will add {{numShapes}} shape(s) to your library. Are you sure?",
     "imageDoesNotContainScene": "This image does not seem to contain any scene data. Have you enabled scene embedding during export?",
     "cannotRestoreFromImage": "Scene couldn't be restored from this image file",
-    "invalidSceneUrl": "Couldn't import scene from the supplied URL. It's either malformed, or doesn't contain valid Excalidraw JSON data.",
+    "invalidSceneUrl": "Couldn't import scene from the supplied URL. It's either malformed, or doesn't contain valid drawing data.",
     "resetLibrary": "This will clear your library. Are you sure?",
     "removeItemsFromsLibrary": "Delete {{count}} item(s) from library?",
     "invalidEncryptionKey": "Encryption key must be of 22 characters. Live collaboration is disabled.",
@@ -313,8 +310,8 @@
     "brave_measure_text_error": {
       "line1": "Looks like you are using Brave browser with the <bold>Aggressively Block Fingerprinting</bold> setting enabled.",
       "line2": "This could result in breaking the <bold>Text Elements</bold> in your drawings.",
-      "line3": "We strongly recommend disabling this setting. You can follow <link>these steps</link> on how to do so.",
-      "line4": "If disabling this setting doesn't fix the display of text elements, please open an <issueLink>issue</issueLink> on our GitHub, or write us on <discordLink>Discord</discordLink>"
+      "line3": "We recommend turning this setting off to keep text elements working normally.",
+      "line4": "Reload Drawgraw after changing your browser privacy settings."
     },
     "libraryElementTypeError": {
       "embeddable": "Embeddable elements cannot be added to the library.",
@@ -403,7 +400,6 @@
     "lineEditor_line_info": "Double-click or press {{shortcut}} to edit points",
     "lineEditor_pointSelected": "Press {{shortcut_1}} to remove point(s),\n{{shortcut_2}} to duplicate, or drag to move",
     "lineEditor_nothingSelected": "Select a point to edit (hold {{shortcut_1}} to select multiple),\nor hold {{shortcut_2}} and click to add new points",
-    "publishLibrary": "Publish your own library",
     "bindTextToElement": "{{shortcut}} to add text",
     "createFlowchart": "{{shortcut}} to create a flowchart",
     "deepBoxSelect": "Hold {{shortcut}} to deep select, and to prevent dragging",
@@ -423,8 +419,7 @@
     "headingMain": "Encountered an error. Try <button>reloading the page</button>.",
     "clearCanvasMessage": "If reloading doesn't work, try <button>clearing the canvas</button>.",
     "clearCanvasCaveat": " This will result in loss of work ",
-    "trackedToSentry": "The error with identifier {{eventId}} was tracked on our system.",
-    "openIssueMessage": "We were very cautious not to include your scene information on the error. If your scene is not private, please consider following up on our <button>bug tracker</button>. Please include information below by copying and pasting into the GitHub issue.",
+    "openIssueMessage": "If this keeps happening, reload Drawgraw or contact your administrator.",
     "sceneContent": "Scene content:"
   },
   "shareDialog": {
@@ -453,12 +448,10 @@
     "disk_button": "Save to file",
     "link_title": "Shareable link",
     "link_details": "Export as a read-only link.",
-    "link_button": "Export to Link",
-    "excalidrawplus_description": "Save the scene to your Excalidraw+ workspace.",
-    "excalidrawplus_button": "Export",
-    "excalidrawplus_exportError": "Couldn't export to Excalidraw+ at this moment..."
+    "link_button": "Export to Link"
   },
   "helpDialog": {
+    "libraries": "Browse Drawgraw Libraries",
     "blog": "Read our blog",
     "click": "click",
     "deepSelect": "Deep select",
@@ -494,38 +487,6 @@
   "clearCanvasDialog": {
     "title": "Clear canvas"
   },
-  "publishDialog": {
-    "title": "Publish library",
-    "itemName": "Item name",
-    "authorName": "Author name",
-    "githubUsername": "GitHub username",
-    "twitterUsername": "Twitter username",
-    "libraryName": "Library name",
-    "libraryDesc": "Library description",
-    "website": "Website",
-    "placeholder": {
-      "authorName": "Your name or username",
-      "libraryName": "Name of your library",
-      "libraryDesc": "Description of your library to help people understand its usage",
-      "githubHandle": "GitHub handle (optional), so you can edit the library once submitted for review",
-      "twitterHandle": "Twitter username (optional), so we know who to credit when promoting over Twitter",
-      "website": "Link to your personal website or elsewhere (optional)"
-    },
-    "errors": {
-      "required": "Required",
-      "website": "Enter a valid URL"
-    },
-    "noteDescription": "Submit your library to be included in the <link>public library repository</link> for other people to use in their drawings.",
-    "noteGuidelines": "The library needs to be manually approved first. Please read the <link>guidelines</link> before submitting. You will need a GitHub account to communicate and make changes if requested, but it is not strictly required.",
-    "noteLicense": "By submitting, you agree the library will be published under the <link>MIT License</link>, which in short means anyone can use them without restrictions.",
-    "noteItems": "Each library item must have its own name so it's filterable. The following library items will be included:",
-    "atleastOneLibItem": "Please select at least one library item to get started",
-    "republishWarning": "Note: some of the selected items are marked as already published/submitted. You should only resubmit items when updating an existing library or submission."
-  },
-  "publishSuccessDialog": {
-    "title": "Library submitted",
-    "content": "Thank you {{authorName}}. Your library has been submitted for review. You can track the status <link>here</link>"
-  },
   "confirmDialog": {
     "resetLibrary": "Reset library",
     "removeItemsFromLib": "Remove selected items from library"
@@ -553,10 +514,6 @@
       "exportToSvg": "SVG",
       "copyPngToClipboard": "Copy to clipboard"
     }
-  },
-  "encrypted": {
-    "tooltip": "Your drawings are end-to-end encrypted so Excalidraw's servers will never see them.",
-    "link": "Blog post on end-to-end encryption in Excalidraw"
   },
   "stats": {
     "angle": "Angle",
@@ -612,7 +569,6 @@
       "center_heading": "Your drawings are saved in your browser's storage.",
       "center_heading_line2": "Browser storage can be cleared unexpectedly.",
       "center_heading_line3": "Save your work to a file regularly to avoid losing it.",
-      "center_heading_plus": "Did you want to go to the Excalidraw+ instead?",
       "menuHint": "Export, preferences, languages, ..."
     },
     "defaults": {
@@ -645,11 +601,6 @@
         "title": "Save to disk",
         "button": "Save to disk",
         "description": "Export the scene data to a file from which you can import later."
-      },
-      "excalidrawPlus": {
-        "title": "Excalidraw+",
-        "button": "Export to Excalidraw+",
-        "description": "Save the scene to your Excalidraw+ workspace."
       }
     },
     "modal": {
@@ -724,11 +675,10 @@
       "mermaidParseError": "Mermaid syntax error"
     },
     "rateLimit": {
-      "messageLimit": "You've hit your AI limit on the free plan. Try out Excalidraw+ for more or come back tomorrow.",
+      "messageLimit": "You've reached the AI request limit. Please try again later.",
       "generalRateLimit": "Hold your horses, you're too fast for us! Please wait a moment before trying again.",
       "messageLimitInputPlaceholder": "You've reached your message limit"
-    },
-    "upsellBtnLabel": "Upgrade to Plus"
+    }
   },
   "quickSearch": {
     "placeholder": "Quick search"
