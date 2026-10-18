@@ -1,0 +1,51 @@
+.drawgraw-mark {
+  color: currentColor;
+  display: block;
+  flex: 0 0 auto;
+  height: 1em;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 2.5;
+  width: 1em;
+}
+
+.drawgraw-wordmark {
+  align-items: center;
+  display: inline-flex;
+  gap: 0.28em;
+  letter-spacing: -0.045em;
+}
+
+.welcome-screen-center__logo .drawgraw-wordmark {
+  color: #25203c;
+  font-family: var(--font-family), sans-serif;
+  font-size: clamp(34px, 5vw, 56px);
+  font-weight: 750;
+}
+
+.welcome-screen-center__logo .drawgraw-mark {
+  color: #6554d9;
+  font-size: 0.8em;
+  stroke-width: 2.2;
+}
+
+.main-menu-item .drawgraw-mark {
+  color: #6554d9;
+  font-size: 20px;
+}
+
+.drawgraw-menu-brand {
+  align-items: center;
+  color: var(--text-primary-color, #333);
+  display: flex;
+  font-size: 14px;
+  font-weight: 650;
+  gap: 8px;
+  padding: 8px 12px;
+}
+
+.drawgraw-menu-brand .drawgraw-mark {
+  color: #6554d9;
+  font-size: 20px;
+}

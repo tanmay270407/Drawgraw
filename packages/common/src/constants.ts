@@ -15,7 +15,7 @@ export { DEFAULT_STICKY_NOTE_BG } from "./colors";
 export const supportsResizeObserver =
   typeof window !== "undefined" && "ResizeObserver" in window;
 
-export const APP_NAME = "Excalidraw";
+export const APP_NAME = "Drawgraw";
 
 // distance when creating text before it's considered `autoResize: false`
 // we're using higher threshold so that clicks that end up being drags

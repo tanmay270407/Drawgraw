@@ -80,6 +80,7 @@ export const TopPicks = ({
       <div
         className={clsx("color-picker__top-picks top-picks-dnd", {
           "is-dnd-active": !!dragState,
+          "color-picker__top-picks--canvas": type === "canvasBackground",
         })}
         ref={dnd?.setStripEl}
       >

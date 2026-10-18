@@ -65,18 +65,40 @@ export const actionChangeViewBackgroundColor = register<Partial<AppState>>({
   PanelComponent: ({ elements, appState, updateData, appProps, data }) => {
     // FIXME move me to src/components/mainMenu/DefaultItems.tsx
     return (
-      <ColorPicker
-        palette={null}
-        topPicks={DEFAULT_CANVAS_BACKGROUND_PICKS}
-        label={t("labels.canvasBackground")}
-        type="canvasBackground"
-        color={appState.viewBackgroundColor}
-        onChange={(color) => updateData({ viewBackgroundColor: color })}
-        data-testid="canvas-background-picker"
-        elements={elements}
-        appState={appState}
-        updateData={updateData}
-      />
+      <div className="canvas-background-picker">
+        <ColorPicker
+          palette={null}
+          topPicks={DEFAULT_CANVAS_BACKGROUND_PICKS}
+          label={t("labels.canvasBackground")}
+          type="canvasBackground"
+          color={appState.viewBackgroundColor}
+          onChange={(color) => updateData({ viewBackgroundColor: color })}
+          data-testid="canvas-background-picker"
+          elements={elements}
+          appState={appState}
+          updateData={updateData}
+        />
+        <div
+          className="canvas-background-picker__presets"
+          role="group"
+          aria-label={t("labels.canvasBackground")}
+        >
+          {DEFAULT_CANVAS_BACKGROUND_PICKS.map((color) => (
+            <button
+              key={color}
+              type="button"
+              className={`color-picker__button has-outline${
+                color === appState.viewBackgroundColor ? " active" : ""
+              }`}
+              style={{ backgroundColor: color }}
+              aria-label={`${t("labels.canvasBackground")} ${color}`}
+              aria-pressed={color === appState.viewBackgroundColor}
+              title={color}
+              onClick={() => updateData({ viewBackgroundColor: color })}
+            />
+          ))}
+        </div>
+      </div>
     );
   },
 });

@@ -150,6 +150,20 @@ describe("<Excalidraw/>", () => {
         expect(queryByTestId(container, "dropdown-menu")).toMatchSnapshot();
       });
 
+      it("should show working canvas background presets", async () => {
+        const { container } = await render(<Excalidraw />);
+        toggleMenu(container);
+        const presets = container.querySelectorAll(
+          ".canvas-background-picker__presets button",
+        );
+        expect(presets).toHaveLength(17);
+
+        fireEvent.click(presets[1]);
+        expect(h.state.viewBackgroundColor).toBe(
+          (presets[1] as HTMLButtonElement).title,
+        );
+      });
+
       it("should hide clear canvas button when clearCanvas is false", async () => {
         const { container } = await render(
           <Excalidraw UIOptions={{ canvasActions: { clearCanvas: false } }} />,

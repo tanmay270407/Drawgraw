@@ -1,0 +1,105 @@
+.cloud-drawings {
+  left: 16px;
+  position: absolute;
+  top: 68px;
+  z-index: var(--zIndex-popup);
+}
+
+.cloud-drawings__toggle,
+.cloud-drawings__actions button,
+.cloud-drawings__refresh {
+  background: var(--island-bg-color, #fff);
+  border: 1px solid var(--default-border-color, #e5e5e5);
+  border-radius: 8px;
+  color: var(--text-primary-color, #252525);
+  cursor: pointer;
+  font: inherit;
+  font-size: 13px;
+  padding: 8px 11px;
+}
+
+.cloud-drawings__toggle {
+  box-shadow: 0 2px 8px #00000012;
+  font-weight: 600;
+}
+
+.cloud-drawings__toggle span {
+  color: #6254dd;
+  margin-right: 4px;
+}
+
+.cloud-drawings__panel {
+  background: var(--island-bg-color, #fff);
+  border: 1px solid var(--default-border-color, #e5e5e5);
+  border-radius: 12px;
+  box-shadow: 0 8px 28px #0000001a;
+  display: grid;
+  gap: 12px;
+  margin-top: 8px;
+  padding: 14px;
+  width: min(300px, calc(100vw - 40px));
+}
+
+.cloud-drawings__panel label {
+  color: var(--text-primary-color, #333);
+  display: grid;
+  font-size: 12px;
+  font-weight: 600;
+  gap: 6px;
+}
+
+.cloud-drawings__panel input,
+.cloud-drawings__panel select {
+  background: var(--island-bg-color, #fff);
+  border: 1px solid var(--default-border-color, #dedede);
+  border-radius: 7px;
+  box-sizing: border-box;
+  color: var(--text-primary-color, #222);
+  font: inherit;
+  font-size: 13px;
+  height: 36px;
+  min-width: 0;
+  padding: 0 9px;
+  width: 100%;
+}
+
+.cloud-drawings__actions {
+  display: flex;
+  gap: 8px;
+}
+
+.cloud-drawings__actions button:first-child {
+  background: #6254dd;
+  border-color: #6254dd;
+  color: #fff;
+  flex: 1;
+  font-weight: 600;
+}
+
+.cloud-drawings__actions button:disabled,
+.cloud-drawings__refresh:disabled {
+  cursor: wait;
+  opacity: 0.65;
+}
+
+.cloud-drawings__delete {
+  color: #a33b3b !important;
+}
+
+.cloud-drawings__panel p {
+  color: var(--text-secondary-color, #656565);
+  font-size: 12px;
+  line-height: 1.4;
+  margin: 0;
+}
+
+.cloud-drawings__refresh {
+  justify-self: start;
+}
+
+@media (max-width: 640px) {
+  .cloud-drawings {
+    left: 8px;
+    top: 60px;
+  }
+}

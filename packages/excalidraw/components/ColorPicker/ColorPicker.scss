@@ -47,6 +47,20 @@
     justify-content: space-between;
     align-items: center;
     gap: 5px;
+
+    &--canvas {
+      display: grid;
+      grid-template-columns: repeat(5, minmax(0, 1fr));
+      justify-items: center;
+    }
+  }
+
+  .canvas-background-picker__presets {
+    display: grid;
+    grid-template-columns: repeat(5, 1.375rem);
+    justify-content: center;
+    gap: 0.45rem;
+    padding: 0 0.5rem 0.5rem;
   }
 
   .color-picker__button {

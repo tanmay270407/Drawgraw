@@ -1,4 +1,5 @@
 import path from "path";
+
 import { defineConfig, loadEnv } from "vite";
 import react from "@vitejs/plugin-react";
 import svgrPlugin from "vite-plugin-svgr";
@@ -6,7 +7,7 @@ import { ViteEjsPlugin } from "vite-plugin-ejs";
 import { VitePWA } from "vite-plugin-pwa";
 import checker from "vite-plugin-checker";
 import { createHtmlPlugin } from "vite-plugin-html";
-import Sitemap from "vite-plugin-sitemap";
+
 import { woff2BrowserPlugin } from "../scripts/woff2/woff2-vite-plugins";
 export default defineConfig(({ mode }) => {
   // To load .env variables
@@ -132,13 +133,6 @@ export default defineConfig(({ mode }) => {
       assetsInlineLimit: 0,
     },
     plugins: [
-      Sitemap({
-        hostname: "https://excalidraw.com",
-        outDir: "build",
-        changefreq: "monthly",
-        // its static in public folder
-        generateRobotsTxt: false,
-      }),
       woff2BrowserPlugin(),
       react(),
       checker({
@@ -223,37 +217,22 @@ export default defineConfig(({ mode }) => {
               },
             },
           ],
-          maximumFileSizeToCacheInBytes: 2.3 * 1024 ** 2, // 2.3MB
+          maximumFileSizeToCacheInBytes: 3 * 1024 ** 2, // 3 MiB (includes the Supabase auth client)
         },
         manifest: {
-          short_name: "Excalidraw",
-          name: "Excalidraw",
+          short_name: "Drawgraw",
+          name: "Drawgraw",
           description:
-            "Excalidraw is a whiteboard tool that lets you easily sketch diagrams that have a hand-drawn feel to them.",
+            "A hand-drawn canvas for diagrams, notes, and visual ideas.",
           icons: [
             {
-              src: "android-chrome-192x192.png",
-              sizes: "192x192",
-              type: "image/png",
-            },
-            {
-              src: "apple-touch-icon.png",
-              type: "image/png",
-              sizes: "180x180",
-            },
-            {
-              src: "favicon-32x32.png",
-              sizes: "32x32",
-              type: "image/png",
-            },
-            {
-              src: "favicon-16x16.png",
-              sizes: "16x16",
-              type: "image/png",
+              src: "favicon.svg",
+              sizes: "any",
+              type: "image/svg+xml",
             },
           ],
           start_url: "/",
-          id: "excalidraw",
+          id: "drawgraw",
           display: "standalone",
           theme_color: "#121212",
           background_color: "#ffffff",
@@ -282,38 +261,6 @@ export default defineConfig(({ mode }) => {
               ],
             },
           },
-          screenshots: [
-            {
-              src: "/screenshots/virtual-whiteboard.png",
-              type: "image/png",
-              sizes: "462x945",
-            },
-            {
-              src: "/screenshots/wireframe.png",
-              type: "image/png",
-              sizes: "462x945",
-            },
-            {
-              src: "/screenshots/illustration.png",
-              type: "image/png",
-              sizes: "462x945",
-            },
-            {
-              src: "/screenshots/shapes.png",
-              type: "image/png",
-              sizes: "462x945",
-            },
-            {
-              src: "/screenshots/collaboration.png",
-              type: "image/png",
-              sizes: "462x945",
-            },
-            {
-              src: "/screenshots/export.png",
-              type: "image/png",
-              sizes: "462x945",
-            },
-          ],
         },
       }),
       createHtmlPlugin({

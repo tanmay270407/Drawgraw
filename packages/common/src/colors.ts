@@ -283,15 +283,25 @@ export const STICKY_NOTE_BACKGROUND_PICKS = [
 // ORDER matters for positioning in quick picker
 export const DEFAULT_CANVAS_BACKGROUND_PICKS = [
   COLOR_PALETTE.white,
-  // radix slate2
+  // Neutral paper and soft-tint backgrounds
   "#f8f9fa",
-  // radix blue2
   "#f5faff",
-  // radix yellow2
   "#fffce8",
-  // radix bronze2
   "#fdf8f6",
-] as ColorTuple;
+  "#fff1f2",
+  "#fdf2f8",
+  "#f0fdf4",
+  "#ecfdf5",
+  "#eff6ff",
+  "#f5f3ff",
+  "#fef3c7",
+  "#f1f5f9",
+  // Dark backgrounds for high contrast and night-mode boards
+  "#1e293b",
+  "#1f2937",
+  "#1e1b4b",
+  "#042f2e",
+] as const;
 
 // palette defaults
 // -----------------------------------------------------------------------------

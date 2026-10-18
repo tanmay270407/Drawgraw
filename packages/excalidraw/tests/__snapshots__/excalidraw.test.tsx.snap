@@ -2,7 +2,7 @@
 
 exports[`<Excalidraw/> > <MainMenu/> > should render main menu with host menu items if passed from host 1`] = `
 <div
-  aria-labelledby="radix-:r85:"
+  aria-labelledby="radix-:r8k:"
   aria-orientation="vertical"
   class="dropdown-menu main-menu"
   data-align="start"
@@ -12,7 +12,7 @@ exports[`<Excalidraw/> > <MainMenu/> > should render main menu with host menu it
   data-state="open"
   data-testid="dropdown-menu"
   dir="ltr"
-  id="radix-:r86:"
+  id="radix-:r8l:"
   role="menu"
   style="outline: none; --radix-dropdown-menu-content-transform-origin: var(--radix-popper-transform-origin); --radix-dropdown-menu-content-available-width: var(--radix-popper-available-width); --radix-dropdown-menu-content-available-height: var(--radix-popper-available-height); --radix-dropdown-menu-trigger-width: var(--radix-popper-anchor-width); --radix-dropdown-menu-trigger-height: var(--radix-popper-anchor-height); animation: none;"
   tabindex="-1"
@@ -691,67 +691,234 @@ exports[`<Excalidraw/> > Test UIOptions prop > Test canvasActions > should rende
         style="padding: 0px 0.625rem;"
       >
         <div
-          aria-modal="true"
-          class="color-picker-container"
-          role="dialog"
+          class="canvas-background-picker"
         >
           <div
-            class="color-picker__top-picks top-picks-dnd"
+            aria-modal="true"
+            class="color-picker-container"
+            role="dialog"
           >
+            <div
+              class="color-picker__top-picks top-picks-dnd color-picker__top-picks--canvas"
+            >
+              <button
+                class="color-picker__button top-picks-dnd__pick active has-outline"
+                data-testid="color-top-pick-#ffffff"
+                data-top-pick-index="0"
+                style="--swatch-color: #ffffff;"
+                title="#ffffff"
+                type="button"
+              >
+                <div
+                  class="color-picker__button-outline"
+                />
+              </button>
+              <button
+                class="color-picker__button top-picks-dnd__pick has-outline"
+                data-testid="color-top-pick-#f8f9fa"
+                data-top-pick-index="1"
+                style="--swatch-color: #f8f9fa;"
+                title="#f8f9fa"
+                type="button"
+              >
+                <div
+                  class="color-picker__button-outline"
+                />
+              </button>
+              <button
+                class="color-picker__button top-picks-dnd__pick has-outline"
+                data-testid="color-top-pick-#f5faff"
+                data-top-pick-index="2"
+                style="--swatch-color: #f5faff;"
+                title="#f5faff"
+                type="button"
+              >
+                <div
+                  class="color-picker__button-outline"
+                />
+              </button>
+              <button
+                class="color-picker__button top-picks-dnd__pick has-outline"
+                data-testid="color-top-pick-#fffce8"
+                data-top-pick-index="3"
+                style="--swatch-color: #fffce8;"
+                title="#fffce8"
+                type="button"
+              >
+                <div
+                  class="color-picker__button-outline"
+                />
+              </button>
+              <button
+                class="color-picker__button top-picks-dnd__pick has-outline"
+                data-testid="color-top-pick-#fdf8f6"
+                data-top-pick-index="4"
+                style="--swatch-color: #fdf8f6;"
+                title="#fdf8f6"
+                type="button"
+              >
+                <div
+                  class="color-picker__button-outline"
+                />
+              </button>
+              <button
+                class="color-picker__button top-picks-dnd__pick has-outline"
+                data-testid="color-top-pick-#fff1f2"
+                data-top-pick-index="5"
+                style="--swatch-color: #fff1f2;"
+                title="#fff1f2"
+                type="button"
+              >
+                <div
+                  class="color-picker__button-outline"
+                />
+              </button>
+              <button
+                class="color-picker__button top-picks-dnd__pick has-outline"
+                data-testid="color-top-pick-#fdf2f8"
+                data-top-pick-index="6"
+                style="--swatch-color: #fdf2f8;"
+                title="#fdf2f8"
+                type="button"
+              >
+                <div
+                  class="color-picker__button-outline"
+                />
+              </button>
+              <button
+                class="color-picker__button top-picks-dnd__pick has-outline"
+                data-testid="color-top-pick-#f0fdf4"
+                data-top-pick-index="7"
+                style="--swatch-color: #f0fdf4;"
+                title="#f0fdf4"
+                type="button"
+              >
+                <div
+                  class="color-picker__button-outline"
+                />
+              </button>
+              <button
+                class="color-picker__button top-picks-dnd__pick has-outline"
+                data-testid="color-top-pick-#ecfdf5"
+                data-top-pick-index="8"
+                style="--swatch-color: #ecfdf5;"
+                title="#ecfdf5"
+                type="button"
+              >
+                <div
+                  class="color-picker__button-outline"
+                />
+              </button>
+              <button
+                class="color-picker__button top-picks-dnd__pick has-outline"
+                data-testid="color-top-pick-#eff6ff"
+                data-top-pick-index="9"
+                style="--swatch-color: #eff6ff;"
+                title="#eff6ff"
+                type="button"
+              >
+                <div
+                  class="color-picker__button-outline"
+                />
+              </button>
+              <button
+                class="color-picker__button top-picks-dnd__pick has-outline"
+                data-testid="color-top-pick-#f5f3ff"
+                data-top-pick-index="10"
+                style="--swatch-color: #f5f3ff;"
+                title="#f5f3ff"
+                type="button"
+              >
+                <div
+                  class="color-picker__button-outline"
+                />
+              </button>
+              <button
+                class="color-picker__button top-picks-dnd__pick has-outline"
+                data-testid="color-top-pick-#fef3c7"
+                data-top-pick-index="11"
+                style="--swatch-color: #fef3c7;"
+                title="#fef3c7"
+                type="button"
+              >
+                <div
+                  class="color-picker__button-outline"
+                />
+              </button>
+              <button
+                class="color-picker__button top-picks-dnd__pick has-outline"
+                data-testid="color-top-pick-#f1f5f9"
+                data-top-pick-index="12"
+                style="--swatch-color: #f1f5f9;"
+                title="#f1f5f9"
+                type="button"
+              >
+                <div
+                  class="color-picker__button-outline"
+                />
+              </button>
+              <button
+                class="color-picker__button top-picks-dnd__pick"
+                data-testid="color-top-pick-#1e293b"
+                data-top-pick-index="13"
+                style="--swatch-color: #1e293b;"
+                title="#1e293b"
+                type="button"
+              >
+                <div
+                  class="color-picker__button-outline"
+                />
+              </button>
+              <button
+                class="color-picker__button top-picks-dnd__pick"
+                data-testid="color-top-pick-#1f2937"
+                data-top-pick-index="14"
+                style="--swatch-color: #1f2937;"
+                title="#1f2937"
+                type="button"
+              >
+                <div
+                  class="color-picker__button-outline"
+                />
+              </button>
+              <button
+                class="color-picker__button top-picks-dnd__pick"
+                data-testid="color-top-pick-#1e1b4b"
+                data-top-pick-index="15"
+                style="--swatch-color: #1e1b4b;"
+                title="#1e1b4b"
+                type="button"
+              >
+                <div
+                  class="color-picker__button-outline"
+                />
+              </button>
+              <button
+                class="color-picker__button top-picks-dnd__pick"
+                data-testid="color-top-pick-#042f2e"
+                data-top-pick-index="16"
+                style="--swatch-color: #042f2e;"
+                title="#042f2e"
+                type="button"
+              >
+                <div
+                  class="color-picker__button-outline"
+                />
+              </button>
+            </div>
+            <div
+              style="width: 1px; height: 1rem; margin: 0px auto;"
+            />
             <button
-              class="color-picker__button top-picks-dnd__pick active has-outline"
-              data-testid="color-top-pick-#ffffff"
-              data-top-pick-index="0"
+              aria-controls="radix-:r16:"
+              aria-expanded="false"
+              aria-haspopup="dialog"
+              aria-label="Canvas background"
+              class="color-picker__button active-color properties-trigger has-outline"
+              data-openpopup="canvasBackground"
+              data-state="closed"
               style="--swatch-color: #ffffff;"
-              title="#ffffff"
-              type="button"
-            >
-              <div
-                class="color-picker__button-outline"
-              />
-            </button>
-            <button
-              class="color-picker__button top-picks-dnd__pick has-outline"
-              data-testid="color-top-pick-#f8f9fa"
-              data-top-pick-index="1"
-              style="--swatch-color: #f8f9fa;"
-              title="#f8f9fa"
-              type="button"
-            >
-              <div
-                class="color-picker__button-outline"
-              />
-            </button>
-            <button
-              class="color-picker__button top-picks-dnd__pick has-outline"
-              data-testid="color-top-pick-#f5faff"
-              data-top-pick-index="2"
-              style="--swatch-color: #f5faff;"
-              title="#f5faff"
-              type="button"
-            >
-              <div
-                class="color-picker__button-outline"
-              />
-            </button>
-            <button
-              class="color-picker__button top-picks-dnd__pick has-outline"
-              data-testid="color-top-pick-#fffce8"
-              data-top-pick-index="3"
-              style="--swatch-color: #fffce8;"
-              title="#fffce8"
-              type="button"
-            >
-              <div
-                class="color-picker__button-outline"
-              />
-            </button>
-            <button
-              class="color-picker__button top-picks-dnd__pick has-outline"
-              data-testid="color-top-pick-#fdf8f6"
-              data-top-pick-index="4"
-              style="--swatch-color: #fdf8f6;"
-              title="#fdf8f6"
+              title="Show background color picker"
               type="button"
             >
               <div
@@ -760,24 +927,147 @@ exports[`<Excalidraw/> > Test UIOptions prop > Test canvasActions > should rende
             </button>
           </div>
           <div
-            style="width: 1px; height: 1rem; margin: 0px auto;"
-          />
-          <button
-            aria-controls="radix-:r16:"
-            aria-expanded="false"
-            aria-haspopup="dialog"
             aria-label="Canvas background"
-            class="color-picker__button active-color properties-trigger has-outline"
-            data-openpopup="canvasBackground"
-            data-state="closed"
-            style="--swatch-color: #ffffff;"
-            title="Show background color picker"
-            type="button"
+            class="canvas-background-picker__presets"
+            role="group"
           >
-            <div
-              class="color-picker__button-outline"
+            <button
+              aria-label="Canvas background #ffffff"
+              aria-pressed="true"
+              class="color-picker__button has-outline active"
+              style="background-color: rgb(255, 255, 255);"
+              title="#ffffff"
+              type="button"
             />
-          </button>
+            <button
+              aria-label="Canvas background #f8f9fa"
+              aria-pressed="false"
+              class="color-picker__button has-outline"
+              style="background-color: rgb(248, 249, 250);"
+              title="#f8f9fa"
+              type="button"
+            />
+            <button
+              aria-label="Canvas background #f5faff"
+              aria-pressed="false"
+              class="color-picker__button has-outline"
+              style="background-color: rgb(245, 250, 255);"
+              title="#f5faff"
+              type="button"
+            />
+            <button
+              aria-label="Canvas background #fffce8"
+              aria-pressed="false"
+              class="color-picker__button has-outline"
+              style="background-color: rgb(255, 252, 232);"
+              title="#fffce8"
+              type="button"
+            />
+            <button
+              aria-label="Canvas background #fdf8f6"
+              aria-pressed="false"
+              class="color-picker__button has-outline"
+              style="background-color: rgb(253, 248, 246);"
+              title="#fdf8f6"
+              type="button"
+            />
+            <button
+              aria-label="Canvas background #fff1f2"
+              aria-pressed="false"
+              class="color-picker__button has-outline"
+              style="background-color: rgb(255, 241, 242);"
+              title="#fff1f2"
+              type="button"
+            />
+            <button
+              aria-label="Canvas background #fdf2f8"
+              aria-pressed="false"
+              class="color-picker__button has-outline"
+              style="background-color: rgb(253, 242, 248);"
+              title="#fdf2f8"
+              type="button"
+            />
+            <button
+              aria-label="Canvas background #f0fdf4"
+              aria-pressed="false"
+              class="color-picker__button has-outline"
+              style="background-color: rgb(240, 253, 244);"
+              title="#f0fdf4"
+              type="button"
+            />
+            <button
+              aria-label="Canvas background #ecfdf5"
+              aria-pressed="false"
+              class="color-picker__button has-outline"
+              style="background-color: rgb(236, 253, 245);"
+              title="#ecfdf5"
+              type="button"
+            />
+            <button
+              aria-label="Canvas background #eff6ff"
+              aria-pressed="false"
+              class="color-picker__button has-outline"
+              style="background-color: rgb(239, 246, 255);"
+              title="#eff6ff"
+              type="button"
+            />
+            <button
+              aria-label="Canvas background #f5f3ff"
+              aria-pressed="false"
+              class="color-picker__button has-outline"
+              style="background-color: rgb(245, 243, 255);"
+              title="#f5f3ff"
+              type="button"
+            />
+            <button
+              aria-label="Canvas background #fef3c7"
+              aria-pressed="false"
+              class="color-picker__button has-outline"
+              style="background-color: rgb(254, 243, 199);"
+              title="#fef3c7"
+              type="button"
+            />
+            <button
+              aria-label="Canvas background #f1f5f9"
+              aria-pressed="false"
+              class="color-picker__button has-outline"
+              style="background-color: rgb(241, 245, 249);"
+              title="#f1f5f9"
+              type="button"
+            />
+            <button
+              aria-label="Canvas background #1e293b"
+              aria-pressed="false"
+              class="color-picker__button has-outline"
+              style="background-color: rgb(30, 41, 59);"
+              title="#1e293b"
+              type="button"
+            />
+            <button
+              aria-label="Canvas background #1f2937"
+              aria-pressed="false"
+              class="color-picker__button has-outline"
+              style="background-color: rgb(31, 41, 55);"
+              title="#1f2937"
+              type="button"
+            />
+            <button
+              aria-label="Canvas background #1e1b4b"
+              aria-pressed="false"
+              class="color-picker__button has-outline"
+              style="background-color: rgb(30, 27, 75);"
+              title="#1e1b4b"
+              type="button"
+            />
+            <button
+              aria-label="Canvas background #042f2e"
+              aria-pressed="false"
+              class="color-picker__button has-outline"
+              style="background-color: rgb(4, 47, 46);"
+              title="#042f2e"
+              type="button"
+            />
+          </div>
         </div>
       </div>
     </div>
